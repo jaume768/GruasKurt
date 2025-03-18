@@ -1,0 +1,10 @@
+.coverage {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.coverage ul {
+  columns: 2;
+  list-style-type: none;
+}

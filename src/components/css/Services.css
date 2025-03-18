@@ -1,0 +1,8 @@
+.services {
+  padding: 2rem;
+}
+
+.services ul {
+  list-style-type: square;
+  padding-left: 2rem;
+}
