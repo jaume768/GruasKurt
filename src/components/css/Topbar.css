@@ -1,0 +1,22 @@
+.topbar {
+  background-color: #002e5a;
+  color: white;
+  padding: 16px 0;
+}
+
+.container-topbar {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-info {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-info span {
+  font-size: 14px;
+}
