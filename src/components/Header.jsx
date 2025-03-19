@@ -11,13 +11,13 @@ export default function Header() {
         <h1 className="logo">Grúas Perello</h1>
         <nav>
           <ul>
-            <li><Link to="/" className={location.pathname === '/' ? 'active' : ''}>Inicio</Link></li>
-            <li><Link to="/la-empresa" className={location.pathname === '/la-empresa' ? 'active' : ''}>La Empresa</Link></li>
-            <li><Link to="/servicios" className={location.pathname === '/servicios' ? 'active' : ''}>Servicios</Link></li>
-            <li><Link to="/flota" className={location.pathname === '/flota' ? 'active' : ''}>Flota</Link></li>
-            <li><Link to="/tecnologia" className={location.pathname === '/tecnologia' ? 'active' : ''}>Tecnología</Link></li>
-            <li><Link to="/cobertura" className={location.pathname === '/cobertura' ? 'active' : ''}>Cobertura</Link></li>
-            <li><Link to="/contacto" className={location.pathname === '/contacto' ? 'active' : ''}>Contacto</Link></li>
+            <li><Link to="/" className={location.pathname === '/' ? 'active' : ''}><b>Inicio</b></Link></li>
+            <li><Link to="/la-empresa" className={location.pathname === '/la-empresa' ? 'active' : ''}><b>La Empresa</b></Link></li>
+            <li><Link to="/servicios" className={location.pathname === '/servicios' ? 'active' : ''}><b>Servicios</b></Link></li>
+            <li><Link to="/flota" className={location.pathname === '/flota' ? 'active' : ''}><b>Flota</b></Link></li>
+            <li><Link to="/tecnologia" className={location.pathname === '/tecnologia' ? 'active' : ''}><b>Tecnología</b></Link></li>
+            <li><Link to="/cobertura" className={location.pathname === '/cobertura' ? 'active' : ''}><b>Cobertura</b></Link></li>
+            <li><Link to="/contacto" className={location.pathname === '/contacto' ? 'active' : ''}><b>Contacto</b></Link></li>
           </ul>
         </nav>
       </div>
