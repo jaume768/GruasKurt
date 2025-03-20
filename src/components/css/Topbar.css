@@ -14,17 +14,17 @@
   align-items: center;
 }
 
-.contact-info {
+.contact-info-topbar {
   display: flex;
   gap: 20px;
 }
 
-.contact-info span {
+.contact-info-topbar span {
   display: flex;
   align-items: center;
 }
 
-.contact-info i {
+.contact-info-topbar i {
   color: #fada06;
   margin-right: 8px;
 }

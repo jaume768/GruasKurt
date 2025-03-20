@@ -5,7 +5,7 @@ export default function Topbar() {
   return (
     <div className="topbar">
       <div className="container-topbar">
-        <div className="contact-info">
+        <div className="contact-info-topbar">
           <span><i className="fas fa-phone"></i> (+34) 971 43 18 40</span>
           <span><i className="fas fa-envelope"></i> info@gruasmallorca.es</span>
         </div>
