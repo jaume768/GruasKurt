@@ -1,0 +1,49 @@
+.reac-section {
+  padding: 5rem 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.reac-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.reac-logo {
+  max-width: 120px;
+  margin: 0 auto 2rem;
+}
+
+.reac-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.reac-section h2 {
+  font-size: 2rem;
+  color: #002e5a;
+  margin-bottom: 1.5rem;
+}
+
+.reac-button {
+  display: inline-block;
+  background-color: #fada06;
+  color: #002e5a;
+  font-weight: 600;
+  padding: 0.8rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 1rem 0 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reac-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reac-section p {
+  font-size: 1.1rem;
+  color: #555;
+}

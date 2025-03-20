@@ -20,10 +20,8 @@ export default function ContactSection() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you would typically handle the form submission
     console.log('Form data submitted:', formData);
     alert('Mensaje enviado. Gracias por contactar con nosotros.');
-    // Reset form
     setFormData({
       name: '',
       email: '',
@@ -46,7 +44,7 @@ export default function ContactSection() {
             {/* If we have the image, use it, otherwise use a div with background color */}
           </div>
         </div>
-        
+
         <div className="contact-form-container">
           <h3>Envíanos tus datos</h3>
           <form className="contact-form" onSubmit={handleSubmit}>
@@ -60,7 +58,7 @@ export default function ContactSection() {
                 required
               />
             </div>
-            
+
             <div className="form-group">
               <input
                 type="email"
@@ -71,7 +69,7 @@ export default function ContactSection() {
                 required
               />
             </div>
-            
+
             <div className="form-group">
               <input
                 type="tel"
@@ -82,7 +80,7 @@ export default function ContactSection() {
                 required
               />
             </div>
-            
+
             <div className="form-group">
               <textarea
                 name="message"
@@ -93,7 +91,7 @@ export default function ContactSection() {
                 required
               ></textarea>
             </div>
-            
+
             <div className="form-group checkbox-group">
               <input
                 type="checkbox"
@@ -107,7 +105,7 @@ export default function ContactSection() {
                 Acepto la política de privacidad de este sitio web.
               </label>
             </div>
-            
+
             <button type="submit" className="btn-submit">Enviar</button>
           </form>
         </div>
