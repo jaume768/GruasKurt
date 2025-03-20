@@ -1,26 +1,44 @@
 .fleet {
-  padding: 2rem;
-  max-width: 1200px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Fleet Hero Section */
+.fleet-hero {
+  padding: 5rem 0 3rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.fleet-hero-content {
+  max-width: 800px;
   margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
-.fleet h2 {
+.fleet-hero h1 {
+  font-size: 2.8rem;
   color: #002e5a;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   position: relative;
-  padding-bottom: 0.5rem;
+  display: inline-block;
 }
 
-.fleet h2::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 50px;
+.underline {
   height: 3px;
+  width: 80px;
   background-color: #fada06;
+  margin: 0 auto 2rem;
 }
 
+.fleet-hero p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Legacy styles kept for reference */
 .vehicle-list {
   display: grid;
   gap: 1.5rem;
@@ -44,4 +62,108 @@
 .vehicle-card h3 {
   color: #002e5a;
   margin-bottom: 0.75rem;
+}
+
+.fleet-gallery {
+  padding: 3rem 1.5rem 5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 200px;
+  gap: 12px;
+  grid-auto-flow: dense; /* Importante: permite que los elementos se coloquen en huecos disponibles */
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-item.horizontal {
+  grid-column: span 2;
+}
+
+.gallery-item.horizontal-small {
+  grid-column: span 1;
+}
+
+.gallery-item.vertical {
+  grid-row: span 2;
+}
+
+.gallery-item.vertical-medium {
+  grid-row: span 2;
+}
+
+.gallery-item.vertical-small {
+  grid-row: span 1;
+}
+
+.gallery-item.vertical-large {
+  grid-row: span 3;
+}
+
+.fleet-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.gallery-item:hover .fleet-image {
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .masonry-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 180px;
+  }
+}
+
+@media (max-width: 900px) {
+  .masonry-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+    gap: 10px;
+  }
+  
+  .fleet-hero h1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .masonry-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 250px;
+  }
+  
+  .gallery-item.horizontal,
+  .gallery-item.horizontal-small,
+  .gallery-item.vertical,
+  .gallery-item.vertical-small,
+  .gallery-item.vertical-medium,
+  .gallery-item.vertical-large {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  
+  .fleet-hero h1 {
+    font-size: 2rem;
+  }
 }

@@ -7,3 +7,218 @@
   color: #2c3e50;
   margin-bottom: 1rem;
 }
+
+/* Technology Workflow Section */
+.technology-workflow {
+  padding: 5rem 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #1a3c6e;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #f6c03e;
+  margin: 15px auto 0;
+}
+
+.section-description {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.workflow-steps {
+  margin-top: 4rem;
+  position: relative;
+}
+
+.workflow-timeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  position: relative;
+}
+
+.step-point {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #f6c03e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #1a3c6e;
+  position: relative;
+  z-index: 2;
+}
+
+.step-line {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #f6c03e;
+  position: relative;
+  z-index: 1;
+}
+
+.workflow-details {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.workflow-step {
+  flex: 0 0 22%;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.workflow-step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.workflow-step h3 {
+  color: #1a3c6e;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.workflow-step p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Technology Advantages Section */
+.technology-advantages {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+
+.advantages-content {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.advantages-image {
+  flex: 0 0 45%;
+  margin-top: 5em;
+  margin-left: 1em;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.advantages-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.advantages-info {
+  flex: 0 0 50%;
+}
+
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.advantage-item {
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.advantage-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.advantage-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #1a3c6e;
+}
+
+.advantage-item h3 {
+  font-size: 1.3rem;
+  color: #1a3c6e;
+  margin-bottom: 1rem;
+}
+
+.advantage-item p {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .workflow-details {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .workflow-step {
+    flex: 0 0 100%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .advantages-content {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  .advantages-image,
+  .advantages-info {
+    flex: 0 0 100%;
+  }
+  
+  .advantages-image {
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .workflow-timeline {
+    max-width: 90%;
+  }
+  
+  .advantages-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+}
