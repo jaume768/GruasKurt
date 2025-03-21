@@ -72,6 +72,7 @@
 .feature-item {
   flex: 1;
   min-width: 300px;
+  overflow: hidden;
   display: flex;
   align-items: flex-start;
   gap: 1.2rem;
