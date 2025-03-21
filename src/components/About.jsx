@@ -9,10 +9,10 @@ export default function About() {
       <section className="about-hero">
         <div className="about-hero-content">
           <h1>Sobre nosotros</h1>
-          <p>Somos <strong>Grúas Mallorca</strong>, una empresa dedicada al auxilio en carretera en las Islas Baleares desde 1986</p>
+          <p>Somos <strong>Grúas Perello</strong>, una empresa dedicada al auxilio en carretera en las Islas Baleares desde 1986</p>
           
           <div className="about-hero-image">
-            <img src="/about-hero.jpg" alt="Equipo de Grúas Mallorca" />
+            <img src="/about-hero.jpg" alt="Equipo de Grúas Perello" />
           </div>
           
           <div className="about-features">

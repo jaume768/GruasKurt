@@ -13,7 +13,7 @@ export default function Home() {
     <main className="home">
       <section className="hero">
         <div className="hero-content">
-          <h1>Grúas Mallorca</h1>
+          <h1>Grúas Perello</h1>
           <p>Asistencia y Auxilio en carretera desde 1986</p>
           <div className="hero-buttons">
             <Link to="/la-empresa" className="btn btn-primary">Sobre nosotros</Link>

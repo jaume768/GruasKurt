@@ -78,7 +78,6 @@ export default function Services() {
         </div>
       </section>
       <ContactSection />
-      <ReacSection />
     </main>
   );
 }

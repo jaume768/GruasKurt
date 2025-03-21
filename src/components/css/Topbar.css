@@ -32,3 +32,9 @@
 .reac-info {
   text-align: right;
 }
+
+@media (max-width: 992px) {
+  .topbar{
+    display: none;
+  }
+}

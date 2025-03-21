@@ -168,14 +168,12 @@
   color: #1a3c6e;
 }
 
-.technology h1 {
+.technology-title {
   font-size: 2.8rem;
   text-align: center;
   overflow: hidden;
   color: #002e5a;
   margin-bottom: 1.5rem;
-  position: relative;
-  display: inline-block;
 }
 
 .advantage-icon i {

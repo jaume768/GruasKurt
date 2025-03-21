@@ -13,7 +13,7 @@ export default function Contact() {
               <div className="icon-contacto">
                 <i className="fa-regular fa-envelope"></i>
               </div>
-              <h3 className="info-title-contacto">info@gruasmallorca.es</h3>
+              <h3 className="info-title-contacto">Gruasperello@gmail.com</h3>
               <p className="info-subtitle-contacto">Escríbenos sin compromiso</p>
             </div>
 
@@ -21,7 +21,7 @@ export default function Contact() {
               <div className="icon-contacto">
                 <i className="fa-solid fa-mobile-screen"></i>
               </div>
-              <h3 className="info-title-contacto">971 43 18 40</h3>
+              <h3 className="info-title-contacto">(+34) 971 58 12 60</h3>
               <p className="info-subtitle-contacto">¡Llámanos para lo que necesites!</p>
             </div>
 
