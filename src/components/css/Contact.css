@@ -40,7 +40,7 @@ button:hover {
   font-size: 2.8rem;
   text-align: center;
   overflow: hidden;
-  color: #002e5a;
+  color: black;
   margin-bottom: 1.5rem;
   position: relative;
   display: block;
@@ -94,7 +94,7 @@ button:hover {
 .info-title-contacto {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #002e5a;
+  color: black;
   margin-bottom: 0.75rem;
 }
 
@@ -134,7 +134,7 @@ button:hover {
 
 .form-title-contacto {
   font-size: 1.75rem;
-  color: #002e5a;
+  color: black;
   margin-bottom: 1rem;
 }
 
@@ -209,6 +209,48 @@ button:hover {
 .submit-button-contacto:hover {
   background-color: #f5c800;
   transform: translateY(-2px);
+}
+
+/* Form success and error messages */
+.form-success-message,
+.form-error-message {
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.form-success-message {
+  background-color: rgba(40, 167, 69, 0.1);
+  border: 1px solid rgba(40, 167, 69, 0.2);
+  color: #28a745;
+}
+
+.form-error-message {
+  background-color: rgba(220, 53, 69, 0.1);
+  border: 1px solid rgba(220, 53, 69, 0.2);
+  color: #dc3545;
+}
+
+.form-success-message i,
+.form-error-message i {
+  font-size: 1.25rem;
+  margin-top: 0.125rem;
+}
+
+.form-success-message p,
+.form-error-message p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.submit-button-contacto:disabled {
+  background-color: #e0e0e0;
+  color: #666;
+  cursor: not-allowed;
+  transform: none;
 }
 
 /* Responsive styles */

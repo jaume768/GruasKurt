@@ -22,7 +22,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, rgba(0, 46, 90, 0.9) 0%, rgba(0, 46, 90, 0.7) 50%, rgba(163, 139, 4, 0.4) 100%);
+  background: linear-gradient(90deg, rgba(1, 20, 37, 0.699) 0%, rgba(1, 20, 37, 0.438) 50%, rgba(163, 139, 4, 0.342) 100%);
 }
 
 .hero-content {
@@ -36,6 +36,7 @@
 .hero h1 {
   font-size: 3.5rem;
   margin-bottom: 1rem;
+  margin-top: 2em;
   font-weight: 700;
 }
 
@@ -61,13 +62,13 @@
 }
 
 .hero .btn-primary {
-  background-color: #fada06;
-  color: #002e5a;
+  background-color: #ffed03;
+  color: black;
 }
 
 .hero .btn-secondary {
-  background-color: #fada06;
-  color: #002e5a;
+  background-color: #ffed03;
+  color: black;
 }
 
 .hero .btn:hover {
@@ -99,7 +100,7 @@
 }
 
 .service-card h3 {
-  color: #002e5a;
+  color: black;
   margin-bottom: 1rem;
   position: relative;
   padding-bottom: 0.5rem;
@@ -112,5 +113,5 @@
   left: 0;
   width: 40px;
   height: 3px;
-  background-color: #fada06;
+  background-color: #ffed03;
 }

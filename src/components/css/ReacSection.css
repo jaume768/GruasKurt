@@ -22,14 +22,14 @@
 
 .reac-section h2 {
   font-size: 2rem;
-  color: #002e5a;
+  color: black;
   margin-bottom: 1.5rem;
 }
 
 .reac-button {
   display: inline-block;
-  background-color: #fada06;
-  color: #002e5a;
+  background-color: #ffed03;
+  color: black;
   font-weight: 600;
   padding: 0.8rem 2rem;
   border-radius: 4px;

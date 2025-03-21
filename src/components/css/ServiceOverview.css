@@ -16,7 +16,7 @@
 
 .service-header h2 {
   font-size: 2.5rem;
-  color: #002e5a;
+  color: black;
   margin-bottom: 1rem;
   position: relative;
   display: inline-block;
@@ -31,7 +31,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 3px;
-  background-color: #fada06;
+  background-color: #ffed03;
 }
 
 .service-header p {
@@ -80,7 +80,7 @@
 
 .service-info h3 {
   font-size: 1.4rem;
-  color: #002e5a;
+  color: black;
   margin-bottom: 1rem;
   position: relative;
   padding-bottom: 0.5rem;
@@ -93,7 +93,7 @@
   left: 0;
   width: 40px;
   height: 3px;
-  background-color: #fada06;
+  background-color: #ffed03;
 }
 
 .service-info p {
@@ -105,8 +105,8 @@
 
 .btn-service {
   display: inline-block;
-  background-color: #fada06;
-  color: #002e5a;
+  background-color: #ffed03;
+  color: black;
   text-decoration: none;
   font-size: 0.9rem;
   padding: 0.6rem 1.2rem;

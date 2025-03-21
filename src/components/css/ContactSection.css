@@ -15,7 +15,7 @@
 
 .contact-info h2 {
   font-size: 2.2rem;
-  color: #002e5a;
+  color: black;
   margin-bottom: 1.5rem;
   position: relative;
   padding-bottom: 0.5rem;
@@ -28,7 +28,7 @@
   left: 0;
   width: 60px;
   height: 3px;
-  background-color: #fada06;
+  background-color: #ffed03;
 }
 
 .contact-info p {
@@ -53,7 +53,7 @@
 
 .contact-image-placeholder {
   height: 250px;
-  background-color: #002e5a;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,13 +72,13 @@
   left: 0;
   width: 100%;
   height: 30%;
-  background: linear-gradient(to top, #fada06, transparent);
+  background: linear-gradient(to top, #ffed03, transparent);
   opacity: 0.3;
 }
 
 .contact-form-container h3 {
   font-size: 1.5rem;
-  color: #002e5a;
+  color: black;
   margin-bottom: 1.5rem;
 }
 
@@ -105,7 +105,7 @@
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #fada06;
+  border-color: #ffed03;
   outline: none;
   box-shadow: 0 0 0 2px rgba(250, 218, 6, 0.2);
 }
@@ -126,8 +126,8 @@
 }
 
 .btn-submit {
-  background-color: #fada06;
-  color: #002e5a;
+  background-color: #f7e815;
+  color: black;
   font-size: 1rem;
   padding: 0.8rem 1.5rem;
   border: none;

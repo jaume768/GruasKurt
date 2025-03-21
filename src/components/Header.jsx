@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <header>
       <div className="container-header">
-        <h1 className="logo">Grúas Perello</h1>
+        <Link to="/" className={location.pathname === '/' ? 'active' : ''} onClick={() => setMenuOpen(false)}><img src="/gruas-perello.jpg" alt="Logo" className="logo" /></Link>
         
         <div className="mobile-menu-toggle" onClick={toggleMenu}>
           <div className={`hamburger ${menuOpen ? 'open' : ''}`}>

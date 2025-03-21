@@ -19,7 +19,7 @@
 .services-hero h1 {
   font-size: 2.8rem;
   overflow: hidden;
-  color: #002e5a;
+  color: black;
   margin-bottom: 1.5rem;
   position: relative;
   display: inline-block;
@@ -33,7 +33,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 3px;
-  background-color: #fada06;
+  background-color: #ffed03;
 }
 
 .services-hero p {
@@ -89,7 +89,7 @@
 
 .service-text h2 {
   font-size: 2.2rem;
-  color: #002e5a;
+  color: black;
   margin-bottom: 1.5rem;
   position: relative;
   padding-bottom: 0.5rem;
@@ -102,7 +102,7 @@
   left: 0;
   width: 60px;
   height: 3px;
-  background-color: #fada06;
+  background-color: #ffed03;
 }
 
 .service-text p {
@@ -130,15 +130,15 @@
   display: inline-block;
   width: 12px;
   height: 12px;
-  background-color: #fada06;
+  background-color: #ffed03;
   border-radius: 50%;
   margin-right: 12px;
 }
 
 .contact-button {
   display: inline-block;
-  background-color: #fada06;
-  color: #002e5a;
+  background-color: #ffed03;
+  color: black;
   font-weight: 600;
   padding: 0.8rem 2rem;
   border-radius: 4px;

@@ -16,7 +16,7 @@
 
 .partners-header h2 {
   font-size: 2.2rem;
-  color: #002e5a;
+  color: black;
   margin-bottom: 1rem;
   position: relative;
   display: inline-block;
@@ -31,7 +31,7 @@
   transform: translateX(-50%);
   width: 80px;
   height: 3px;
-  background-color: #fada06;
+  background-color: #ffed03;
 }
 
 .partners-header p {
@@ -89,7 +89,7 @@
   background-color: #f5f5f5;
   border-radius: 8px;
   font-weight: 600;
-  color: #002e5a;
+  color: black;
   text-align: center;
   min-width: 120px;
   min-height: 60px;
@@ -101,7 +101,7 @@
 }
 
 .partner-logo:hover .partner-placeholder {
-  background-color: #fada06;
+  background-color: #ffed03;
   transform: scale(1.05);
 }
 
@@ -122,7 +122,7 @@
 }
 
 .indicator.active {
-  background-color: #fada06;
+  background-color: #ffed03;
 }
 
 @media (max-width: 768px) {

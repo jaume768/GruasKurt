@@ -1,7 +1,71 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './css/Contact.css';
 
 export default function Contact() {
+  const form = useRef();
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    message: '',
+    privacy: false
+  });
+  const [formStatus, setFormStatus] = useState({
+    submitting: false,
+    success: null,
+    error: null
+  });
+
+  const handleChange = (e) => {
+    const { name, value, type, checked } = e.target;
+    setFormData({
+      ...formData,
+      [name]: type === 'checkbox' ? checked : value
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setFormStatus({ submitting: true, success: null, error: null });
+
+    const serviceId = 'service_z04ihuq';
+    const templateId = 'template_u2gbd7f';
+    const publicKey = '9cgVf8auM-uTGrWOI';
+
+    const templateParams = {
+      to_email: 'jaumefernandezsunyer10@gmail.com',
+      name: formData.name,
+      email: formData.email,
+      message: formData.message
+    };
+
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        console.log('CORRECTO!', response.status, response.text);
+        setFormStatus({
+          submitting: false,
+          success: 'Tu mensaje ha sido enviado correctamente. Nos pondremos en contacto contigo pronto.',
+          error: null
+        });
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          message: '',
+          privacy: false
+        });
+      })
+      .catch((err) => {
+        console.log('ERROR...', err);
+        setFormStatus({
+          submitting: false,
+          success: null,
+          error: 'Ha ocurrido un error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde.'
+        });
+      });
+  };
+
   return (
     <main className="contact">
       <h1 className="contact h1">Contacto</h1>
@@ -55,29 +119,87 @@ export default function Contact() {
               <h2 className="form-title-contacto">Contáctanos</h2>
               <p className="form-subtitle-contacto">Envíanos tus datos en el siguiente formulario y contactaremos contigo lo antes posible.</p>
 
-              <form className="contact-form-contacto">
+              {formStatus.success && (
+                <div className="form-success-message">
+                  <i className="fa-solid fa-check-circle"></i>
+                  <p>{formStatus.success}</p>
+                </div>
+              )}
+
+              {formStatus.error && (
+                <div className="form-error-message">
+                  <i className="fa-solid fa-exclamation-circle"></i>
+                  <p>{formStatus.error}</p>
+                </div>
+              )}
+
+              <form ref={form} className="contact-form-contacto" onSubmit={handleSubmit}>
                 <div className="form-group-contacto">
-                  <input type="text" className="form-input-contacto" placeholder="Nombre o Empresa" required />
+                  <input 
+                    type="text" 
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    className="form-input-contacto" 
+                    placeholder="Nombre o Empresa" 
+                    required 
+                  />
                 </div>
 
                 <div className="form-group-contacto">
-                  <input type="email" className="form-input-contacto" placeholder="Email" required />
+                  <input 
+                    type="email" 
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    className="form-input-contacto" 
+                    placeholder="Email" 
+                    required 
+                  />
                 </div>
 
                 <div className="form-group-contacto">
-                  <input type="tel" className="form-input-contacto" placeholder="Teléfono" />
+                  <input 
+                    type="tel" 
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    className="form-input-contacto" 
+                    placeholder="Teléfono" 
+                  />
                 </div>
 
                 <div className="form-group-contacto">
-                  <textarea className="form-textarea-contacto" placeholder="¿Qué necesitas?" rows="4" required></textarea>
+                  <textarea 
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    className="form-textarea-contacto" 
+                    placeholder="¿Qué necesitas?" 
+                    rows="4" 
+                    required
+                  ></textarea>
                 </div>
 
                 <div className="privacy-policy-contacto">
-                  <input type="checkbox" id="privacy" required />
+                  <input 
+                    type="checkbox" 
+                    id="privacy" 
+                    name="privacy"
+                    checked={formData.privacy}
+                    onChange={handleChange}
+                    required 
+                  />
                   <label htmlFor="privacy">Acepto la política de privacidad de este sitio web.</label>
                 </div>
 
-                <button type="submit" className="submit-button-contacto">Enviar</button>
+                <button 
+                  type="submit" 
+                  className="submit-button-contacto"
+                  disabled={formStatus.submitting}
+                >
+                  {formStatus.submitting ? 'Enviando...' : 'Enviar'}
+                </button>
               </form>
             </div>
           </div>

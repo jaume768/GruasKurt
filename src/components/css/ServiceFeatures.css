@@ -40,12 +40,12 @@
 .feature-icon {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #002e5a;
+  color: black;
 }
 
 .feature-card h3 {
   font-size: 1.4rem;
-  color: #002e5a;
+  color: black;
   margin-bottom: 0.5rem;
 }
 
@@ -62,7 +62,7 @@
 
 .info-content h2 {
   font-size: 2.2rem;
-  color: #002e5a;
+  color: black;
   margin-bottom: 1.5rem;
   position: relative;
   padding-bottom: 0.5rem;
@@ -75,7 +75,7 @@
   left: 0;
   width: 60px;
   height: 3px;
-  background-color: #fada06;
+  background-color: #ffed03;
 }
 
 .info-content p {
@@ -86,8 +86,8 @@
 }
 
 .btn-action {
-  background-color: #fada06;
-  color: #002e5a;
+  background-color: #ffed03;
+  color: black;
   font-size: 1rem;
   padding: 0.8rem 1.5rem;
   border: none;

@@ -5,7 +5,7 @@
 }
 
 .section-title {
-  color: #002e5a;
+  color: black;
   margin-bottom: 2rem;
   position: relative;
   padding-bottom: 0.5rem;
@@ -19,12 +19,12 @@
   left: 0;
   width: 50px;
   height: 3px;
-  background-color: #fada06;
+  background-color: #f7e815;
 }
 
 .btn {
-  background-color: #fada06;
-  color: #002e5a;
+  background-color: #f7e815;
+  color: black;
   padding: 0.75rem 1.5rem;
   border: none;
   border-radius: 4px;
@@ -68,7 +68,7 @@
 .form-group label {
   display: block;
   margin-bottom: 0.5rem;
-  color: #002e5a;
+  color: black;
   font-weight: 500;
 }
 
@@ -86,5 +86,5 @@
 .form-group textarea:focus,
 .form-group select:focus {
   outline: none;
-  border-color: #002e5a;
+  border-color: black;
 }

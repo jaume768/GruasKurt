@@ -16,38 +16,38 @@ export default function FleetOverview() {
             
             <div className="fleet-features">
               <div className="features-column">
-                <div className="feature-item">
+                <div className="feature-item-inicio">
                   <span className="feature-dot"></span>
                   <span>Plataformas</span>
                 </div>
-                <div className="feature-item">
+                <div className="feature-item-inicio">
                   <span className="feature-dot"></span>
                   <span>Patrol</span>
                 </div>
-                <div className="feature-item">
+                <div className="feature-item-inicio">
                   <span className="feature-dot"></span>
                   <span>Plataformas grúas</span>
                 </div>
-                <div className="feature-item">
+                <div className="feature-item-inicio">
                   <span className="feature-dot"></span>
                   <span>Camiones</span>
                 </div>
               </div>
               
               <div className="features-column">
-                <div className="feature-item">
+                <div className="feature-item-inicio">
                   <span className="feature-dot"></span>
                   <span>Coche taller</span>
                 </div>
-                <div className="feature-item">
+                <div className="feature-item-inicio">
                   <span className="feature-dot"></span>
                   <span>Plataformas especiales</span>
                 </div>
-                <div className="feature-item">
+                <div className="feature-item-inicio">
                   <span className="feature-dot"></span>
                   <span>Taxis</span>
                 </div>
-                <div className="feature-item">
+                <div className="feature-item-inicio">
                   <span className="feature-dot"></span>
                   <span>Grúas parking</span>
                 </div>

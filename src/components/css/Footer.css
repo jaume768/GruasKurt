@@ -1,5 +1,5 @@
 footer {
-  background-color: #002e5a;
+  background-color: black;
   color: white;
   padding: 3rem 0 1rem;
 }
@@ -25,7 +25,7 @@ footer {
 }
 
 .footer-column h3 {
-  color: #fada06;
+  color: #ffed03;
   margin-bottom: 1rem;
   position: relative;
   padding-bottom: 0.5rem;
@@ -38,7 +38,7 @@ footer {
   left: 30%;
   width: 230px;
   height: 3px;
-  background-color: #fada06;
+  background-color: #ffed03;
 }
 
 .footer-column p {
@@ -58,7 +58,7 @@ footer {
 
 .contact-item i {
   margin-right: 10px;
-  color: #fada06;
+  color: #ffed03;
 }
 
 .contact-item p {
@@ -66,7 +66,7 @@ footer {
 }
 
 .reac-link a {
-  color: #fada06;
+  color: #ffed03;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
@@ -113,7 +113,7 @@ footer {
 }
 
 .footer-legal a:hover {
-  color: #fada06;
+  color: #ffed03;
 }
 
 @media (max-width: 768px) {

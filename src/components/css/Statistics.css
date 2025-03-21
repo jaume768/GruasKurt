@@ -26,19 +26,19 @@
   font-size: 3.5rem;
   font-weight: 700;
   overflow: hidden;
-  color: #002e5a;
+  color: black;
   margin-bottom: 1rem;
   line-height: 1;
 }
 
 .statistic-number .highlight {
-  color: #fada06;
+  color: #ffed03;
   font-weight: 700;
 }
 
 .statistic-card h3 {
   font-size: 1.3rem;
-  color: #002e5a;
+  color: black;
   margin-bottom: 0.5rem;
 }
 
