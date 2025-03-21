@@ -1,10 +1,152 @@
 .coverage {
-  padding: 2rem;
-  max-width: 800px;
-  margin: 0 auto;
+  padding: 2rem 0;
+  width: 100%;
 }
 
-.coverage ul {
-  columns: 2;
+.coverage-map-section {
+  background-color: #f8f9fa;
+  padding: 3rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #0d47a1;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.coverage-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.map-container {
+  flex: 1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.coverage-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.coverage-description {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.coverage-locations {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.locations-list {
+  flex: 1;
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.locations-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.location-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #ffd700;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+
+.coverage h1 {
+  font-size: 2.8rem;
+  text-align: center;
+  overflow: hidden;
+  color: #002e5a;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: inline-block;
+}
+
+.coverage-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #ffd700;
+  color: #333;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #f5c800;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #ffd700;
+}
+
+.btn-secondary:hover {
+  background-color: #ffd700;
+  transform: translateY(-2px);
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .coverage-content {
+    flex-direction: row;
+  }
+  
+  .map-container {
+    flex: 3;
+  }
+  
+  .coverage-info {
+    flex: 2;
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .coverage-buttons {
+    flex-direction: column;
+  }
+  
+  .btn {
+    width: 100%;
+  }
 }

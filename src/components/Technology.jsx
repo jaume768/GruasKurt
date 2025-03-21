@@ -7,7 +7,7 @@ export default function Technology() {
       {/* Workflow Section */}
       <section className="technology-workflow">
         <div className="container">
-          <h2 className="section-title">Trabajamos con la última tecnología</h2>
+          <h1 className="technology h1">Trabajamos con la última tecnología</h1>
           <p className="section-description">
             Nuestro flujo de trabajo es llevado a cabo a través de EFI Asistencia,
             una solución software para gestión de servicios de asistencia en
