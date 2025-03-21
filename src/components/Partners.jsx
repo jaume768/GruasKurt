@@ -4,12 +4,12 @@ import './css/Partners.css';
 export default function Partners() {
   // Array of partner names to display
   const partners = [
-    { name: 'RACC', logo: '/logo-racc.png' },
-    { name: 'Carset', logo: '/logo-carset.png' },
-    { name: 'Allianz Partners', logo: '/logo-allianz.png' },
-    { name: 'IMA Ibérica Asistencia', logo: '/logo-ima.png' },
-    { name: 'AXA', logo: '/logo-axa.png' },
-    { name: 'Mapfre', logo: '/logo-mapfre.png' }
+    { name: 'RACC', logo: '/partners/logo-racc.png' },
+    { name: 'Carset', logo: '/partners/logo-carset.png' },
+    { name: 'Allianz Partners', logo: '/partners/logo-allianz.png' },
+    { name: 'IMA Ibérica Asistencia', logo: '/partners/logo-ima.png' },
+    { name: 'AXA', logo: '/partners/logo-axa.png' },
+    { name: 'Mapfre', logo: '/partners/logo-mapfre.png' }
   ];
 
   return (
@@ -19,29 +19,27 @@ export default function Partners() {
           <h2>Nuestras compañías</h2>
           <p>Estas son las diferentes compañías con las que trabajamos</p>
         </div>
-        
+
         <div className="partners-carousel-container">
           <div className="partners-carousel">
-            {/* First set of logos for the continuous loop effect */}
             {partners.map((partner, index) => (
               <div className="partner-logo" key={`partner-${index}`}>
-                <div className="partner-placeholder">{partner.name}</div>
+                <img src={partner.logo} alt={partner.name} />
               </div>
             ))}
-            
-            {/* Duplicate logos for seamless infinite scroll effect */}
+
             {partners.map((partner, index) => (
               <div className="partner-logo" key={`partner-dup-${index}`}>
-                <div className="partner-placeholder">{partner.name}</div>
+                <img src={partner.logo} alt={partner.name} />
               </div>
             ))}
           </div>
         </div>
-        
+
         <div className="partners-indicators">
           {partners.map((_, index) => (
-            <span 
-              key={`indicator-${index}`} 
+            <span
+              key={`indicator-${index}`}
               className={`indicator ${index === 0 ? 'active' : ''}`}
             ></span>
           ))}

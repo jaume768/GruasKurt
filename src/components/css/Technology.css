@@ -168,6 +168,10 @@
   color: #1a3c6e;
 }
 
+.advantage-icon i {
+  overflow: hidden;
+}
+
 .advantage-item h3 {
   font-size: 1.3rem;
   color: #1a3c6e;

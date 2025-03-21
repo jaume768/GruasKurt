@@ -17,7 +17,7 @@ export default function About() {
           
           <div className="about-features">
             <div className="feature-item">
-              <div className="feature-icon">
+              <div className="feature-icon-about">
                 <i className="fas fa-chart-line"></i>
               </div>
               <div className="feature-content">
@@ -27,7 +27,7 @@ export default function About() {
             </div>
             
             <div className="feature-item">
-              <div className="feature-icon">
+              <div className="feature-icon-about">
                 <i className="fas fa-clock"></i>
               </div>
               <div className="feature-content">
@@ -37,7 +37,7 @@ export default function About() {
             </div>
             
             <div className="feature-item">
-              <div className="feature-icon">
+              <div className="feature-icon-about">
                 <i className="fas fa-map-marker-alt"></i>
               </div>
               <div className="feature-content">

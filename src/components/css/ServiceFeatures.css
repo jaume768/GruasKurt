@@ -29,6 +29,10 @@
   transition: transform 0.3s ease;
 }
 
+.feature-card i{
+  overflow: hidden;
+}
+
 .feature-card:hover {
   transform: translateY(-5px);
 }

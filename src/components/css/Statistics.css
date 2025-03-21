@@ -25,6 +25,7 @@
 .statistic-number {
   font-size: 3.5rem;
   font-weight: 700;
+  overflow: hidden;
   color: #002e5a;
   margin-bottom: 1rem;
   line-height: 1;

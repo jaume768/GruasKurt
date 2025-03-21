@@ -19,6 +19,7 @@
 .about-hero h1 {
   font-size: 2.8rem;
   color: #002e5a;
+  overflow: hidden;
   margin-bottom: 1.5rem;
   position: relative;
   display: inline-block;
@@ -86,10 +87,12 @@
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
-.feature-icon {
+.feature-icon-about {
   font-size: 1.8rem;
   color: #fada06;
   padding: 1rem;
+  width: 9rem;
+  
   background-color: rgba(250, 218, 6, 0.1);
   border-radius: 50%;
   display: flex;

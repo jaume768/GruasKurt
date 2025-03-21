@@ -41,7 +41,7 @@ export default function ContactSection() {
             de nuestros, no dudes en contactarnos sin compromiso.
           </p>
           <div className="contact-image">
-            {/* If we have the image, use it, otherwise use a div with background color */}
+            <img src="/contact-image.jpg" alt="Contact" />
           </div>
         </div>
 
