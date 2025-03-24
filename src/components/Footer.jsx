@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-content">
           <div className="footer-column">
             <h3>Grúas Perello</h3>
-            <p>Asistencia y Auxilio en carretera 1986. Servicio de grúas en Mallorca.</p>
+            <p>Asistencia y Auxilio en carretera. Servicio de grúas en Mallorca.</p>
             <div className="contact-item">
               <p><i className="fas fa-phone"></i>(+34) 971 58 12 60</p>
             </div>
@@ -29,6 +29,7 @@ export default function Footer() {
           <div className="footer-legal">
             <a href="/aviso-legal">Aviso legal</a>
             <a href="/politica-privacidad">Política de privacidad</a>
+            <a href="/politica-cookies">Política de cookies</a>
           </div>
         </div>
       </div>

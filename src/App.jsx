@@ -12,6 +12,7 @@ import Coverage from './components/Coverage';
 import Contact from './components/Contact';
 import LegalNotice from './components/LegalNotice';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import CookiesPolicy from './components/CookiesPolicy';
 import ScrollToTop from './components/ScrollToTop';
 import WhatsAppButton from './components/WhatsAppButton';
 
@@ -33,6 +34,7 @@ function App() {
             <Route path="/contacto" element={<Contact />} />
             <Route path="/aviso-legal" element={<LegalNotice />} />
             <Route path="/politica-privacidad" element={<PrivacyPolicy />} />
+            <Route path="/politica-cookies" element={<CookiesPolicy />} />
           </Routes>
         </main>
         <Footer />

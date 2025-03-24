@@ -8,63 +8,75 @@ export default function About() {
     <main className="about">
       <section className="about-hero">
         <div className="about-hero-content">
-          <h1>Sobre nosotros</h1>
-          <p>Somos <strong>Grúas Perello</strong>, una empresa dedicada al auxilio en carretera en las Islas Baleares desde 1986</p>
-          
+          <h1>Quiénes somos</h1>
+          <p>
+            Somos <strong>Grúas Perello</strong>, una compañía especializada en asistencia vial en las Islas Baleares.
+          </p>
+
           <div className="about-features">
             <div className="feature-item">
               <div className="feature-icon-about">
                 <i className="fas fa-chart-line"></i>
               </div>
               <div className="feature-content">
-                <h3>Experiencia contrastada</h3>
-                <p>Llevamos más de 30 años en el sector de la movilidad y asistencia en carretera</p>
+                <h3>Años de experiencia</h3>
+                <p>
+                  Con más de 30 años de trayectoria en el sector de la movilidad y el auxilio en carretera.
+                </p>
               </div>
             </div>
-            
+
             <div className="feature-item">
               <div className="feature-icon-about">
                 <i className="fas fa-clock"></i>
               </div>
               <div className="feature-content">
-                <h3>Servicio 24h</h3>
-                <p>Operamos en la isla de Mallorca las 24 horas del día los 365 días del año</p>
+                <h3>Atención continua</h3>
+                <p>
+                  Brindamos servicio en Mallorca a toda hora, los 365 días del año.
+                </p>
               </div>
             </div>
-            
+
             <div className="feature-item">
               <div className="feature-icon-about">
                 <i className="fas fa-map-marker-alt"></i>
               </div>
               <div className="feature-content">
-                <h3>Mallorca es nuestra</h3>
-                <p>Nuestras zonas de actuaciones se extienden por toda la isla de Mallorca en cualquier punto</p>
+                <h3>Mallorca, nuestra casa</h3>
+                <p>
+                  Cubrimos toda la isla de Mallorca, actuando en cada rincón.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      
+
       <section className="about-efficiency">
         <div className="about-efficiency-content">
           <div className="efficiency-text">
-            <h2>Eficientes</h2>
-            <p>Gestionamos los servicios de manera eficiente gracias a nuestro equipo de trabajadores profesionales.</p>
+            <h2>Ágiles</h2>
+            <p>
+              Organizamos nuestros servicios de forma óptima, gracias a nuestro equipo de profesionales comprometidos.
+            </p>
           </div>
           <div className="efficiency-image">
-            <img src="/efficiency-image.png" alt="Profesionales en acción" />
+            <img src="/efficiency-image.png" alt="Expertos en acción" />
           </div>
         </div>
       </section>
-      
+
       <section className="about-professionals">
         <div className="about-professionals-content">
           <div className="professionals-image">
-            <img src="/professionals-image.jpeg" alt="Equipo profesional" />
+            <img src="/professionals-image.jpeg" alt="Equipo de expertos" />
           </div>
           <div className="professionals-text">
-            <h2>Profesionales</h2>
-            <p>Todos nuestros gruistas y profesionales formamos el mejor equipo trabajo para una rapidez en la gestión de servicios.</p>
+            <h2>Especialistas</h2>
+            <p>
+              Nuestro equipo de gruistas y especialistas se destaca por su rapidez y eficacia en la gestión de cada servicio.
+            </p>
           </div>
         </div>
       </section>

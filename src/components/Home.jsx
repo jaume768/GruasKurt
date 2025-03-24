@@ -14,7 +14,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-content">
           <h1>Grúas Perello</h1>
-          <p>Asistencia y Auxilio en carretera desde 1986</p>
+          <p>Asistencia y Auxilio en carretera</p>
           <div className="hero-buttons">
             <Link to="/la-empresa" className="btn btn-primary">Sobre nosotros</Link>
             <Link to="/servicios" className="btn btn-secondary">Nuestros servicios</Link>
