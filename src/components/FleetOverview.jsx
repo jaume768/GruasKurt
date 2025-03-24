@@ -54,7 +54,7 @@ export default function FleetOverview() {
               </div>
             </div>
             
-            <Link to="/flota" className="btn-fleet">Ver flota completa</Link>
+            <Link to="/servicios" className="btn-fleet">Ver flota completa</Link>
           </div>
         </div>
       </div>

@@ -1,0 +1,124 @@
+/* Animaciones generales */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Clases de animación para aplicar a componentes */
+.animate-fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.animate-slide-left {
+  animation: slideInLeft 0.8s ease forwards;
+}
+
+.animate-slide-right {
+  animation: slideInRight 0.8s ease forwards;
+}
+
+.animate-scale {
+  animation: scaleIn 0.8s ease forwards;
+}
+
+/* Animaciones con retraso */
+.delay-100 {
+  animation-delay: 100ms;
+}
+
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+.delay-300 {
+  animation-delay: 300ms;
+}
+
+.delay-400 {
+  animation-delay: 400ms;
+}
+
+.delay-500 {
+  animation-delay: 500ms;
+}
+
+/* Animaciones para elementos específicos */
+.section-title {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.card, .feature-item, .service-card, .fleet-card {
+  animation: scaleIn 0.6s ease forwards;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover, .feature-item:hover, .service-card:hover, .fleet-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Animación para botones */
+.btn, button, .btn-fleet, .btn-service {
+  transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover, button:hover, .btn-fleet:hover, .btn-service:hover {
+  transform: translateY(-2px);
+}
+
+/* Animaciones para imágenes */
+img {
+  transition: transform 0.5s ease;
+}
+
+.img-hover:hover {
+  transform: scale(1.03);
+}
+
+/* Animación para elementos de lista */
+li {
+  transition: transform 0.2s ease;
+}
+
+nav li:hover {
+  transform: translateY(-2px);
+}

@@ -12,10 +12,12 @@ import Coverage from './components/Coverage';
 import Contact from './components/Contact';
 import LegalNotice from './components/LegalNotice';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="app-container">
         <Topbar />
         <Header />
