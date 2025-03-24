@@ -14,7 +14,7 @@ export default function ServiceOverview() {
         <div className="service-cards">
           <div className="service-card">
             <div className="service-image">
-              <img src="/servicio-asistencia.jpg" alt="Asistencia en carretera" />
+              <img src="/professionals-image.jpeg" alt="Asistencia en carretera" />
             </div>
             <div className="service-info">
               <h3>Asistencia en carretera</h3>
@@ -25,7 +25,7 @@ export default function ServiceOverview() {
           
           <div className="service-card">
             <div className="service-image">
-              <img src="/servicio-traslado.jpg" alt="Traslado de vehículos" />
+              <img src="/servicio-traslado.png" alt="Traslado de vehículos" />
             </div>
             <div className="service-info">
               <h3>Traslado de vehículos</h3>
@@ -36,7 +36,7 @@ export default function ServiceOverview() {
           
           <div className="service-card">
             <div className="service-image">
-              <img src="/servicio-ris.jpg" alt="RIS" />
+              <img src="/servicio-ris.png" alt="RIS" />
             </div>
             <div className="service-info">
               <h3>RIS</h3>

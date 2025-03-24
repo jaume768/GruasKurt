@@ -11,10 +11,6 @@ export default function About() {
           <h1>Sobre nosotros</h1>
           <p>Somos <strong>Grúas Perello</strong>, una empresa dedicada al auxilio en carretera en las Islas Baleares desde 1986</p>
           
-          <div className="about-hero-image">
-            <img src="/about-hero.jpg" alt="Equipo de Grúas Perello" />
-          </div>
-          
           <div className="about-features">
             <div className="feature-item">
               <div className="feature-icon-about">
@@ -56,7 +52,7 @@ export default function About() {
             <p>Gestionamos los servicios de manera eficiente gracias a nuestro equipo de trabajadores profesionales.</p>
           </div>
           <div className="efficiency-image">
-            <img src="/efficiency-image.jpg" alt="Profesionales en acción" />
+            <img src="/efficiency-image.png" alt="Profesionales en acción" />
           </div>
         </div>
       </section>
@@ -64,7 +60,7 @@ export default function About() {
       <section className="about-professionals">
         <div className="about-professionals-content">
           <div className="professionals-image">
-            <img src="/professionals-image.jpg" alt="Equipo profesional" />
+            <img src="/professionals-image.jpeg" alt="Equipo profesional" />
           </div>
           <div className="professionals-text">
             <h2>Profesionales</h2>

@@ -10,6 +10,8 @@ import Fleet from './components/Fleet';
 import Technology from './components/Technology';
 import Coverage from './components/Coverage';
 import Contact from './components/Contact';
+import LegalNotice from './components/LegalNotice';
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
             <Route path="/tecnologia" element={<Technology />} />
             <Route path="/cobertura" element={<Coverage />} />
             <Route path="/contacto" element={<Contact />} />
+            <Route path="/aviso-legal" element={<LegalNotice />} />
+            <Route path="/politica-privacidad" element={<PrivacyPolicy />} />
           </Routes>
         </main>
         <Footer />

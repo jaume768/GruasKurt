@@ -8,7 +8,7 @@ export default function FleetOverview() {
       <div className="fleet-container">
         <div className="fleet-grid">
           <div className="fleet-image">
-            <img src="/flota-gruas-mallorca.jpg" alt="Grúa de Mallorca" />
+            <img src="/foto-gruas-perello4.png" alt="Grúa de Mallorca" />
           </div>
           <div className="fleet-content">
             <h2>Flota totalmente equipada</h2>

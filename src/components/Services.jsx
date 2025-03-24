@@ -30,7 +30,7 @@ export default function Services() {
               </div>
             </div>
             <div className="service-image-specific">
-              <img src="/servicio-asistencia.jpg" alt="Servicio de asistencia en carretera" />
+              <img src="/servicio-asistencia.png" alt="Servicio de asistencia en carretera" />
             </div>
           </div>
           
@@ -44,7 +44,7 @@ export default function Services() {
               </div>
             </div>
             <div className="service-image-specific">
-              <img src="/servicio-traslado.jpg" alt="Servicio de traslados" />
+              <img src="/servicio-traslado.png" alt="Servicio de traslados" />
             </div>
           </div>
           
@@ -58,7 +58,7 @@ export default function Services() {
               </div>
             </div>
             <div className="service-image-specific">
-              <img src="/servicio-ris.jpg" alt="Servicio de rescates" />
+              <img src="/servicio-ris.png" alt="Servicio de rescates" />
             </div>
           </div>
           
@@ -72,7 +72,7 @@ export default function Services() {
               </div>
             </div>
             <div className="service-image-specific">
-              <img src="/servicio-ris.jpg" alt="Servicio de RIS" />
+              <img src="/professionals-image.jpeg" alt="Servicio de RIS" />
             </div>
           </div>
         </div>

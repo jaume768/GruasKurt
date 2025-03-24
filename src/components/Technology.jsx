@@ -55,7 +55,7 @@ export default function Technology() {
         <div className="container">
           <div className="advantages-content">
             <div className="advantages-image">
-              <img src="/tech.jpg" alt="Truck Transport" />
+              <img src="/tech.png" alt="Truck Transport" />
             </div>
             
             <div className="advantages-info">
