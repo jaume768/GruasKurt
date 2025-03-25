@@ -91,6 +91,7 @@
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
 }
 
 .workflow-step:hover {
@@ -217,12 +218,82 @@
   
   .advantages-image {
     height: 300px;
+    margin-left: 0;
   }
 }
 
 @media (max-width: 768px) {
+  .technology {
+    padding: 1rem;
+  }
+  
+  .technology-workflow, 
+  .technology-advantages {
+    padding: 3rem 0;
+  }
+  
+  .technology-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .section-description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+  
   .workflow-timeline {
     max-width: 90%;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  .step-point {
+    width: 40px;
+    height: 40px;
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+  }
+  
+  .step-line {
+    width: 2px;
+    height: 30px;
+    flex-grow: 0;
+  }
+  
+  .workflow-step {
+    max-width: 90%;
+    padding: 1.2rem 0.8rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+  
+  .workflow-step::before {
+    content: attr(data-step);
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: #f6c03e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1a3c6e;
+    font-weight: bold;
+  }
+  
+  .workflow-step h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .workflow-step p {
+    font-size: 0.9rem;
   }
   
   .advantages-grid {
@@ -231,6 +302,68 @@
   }
   
   .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .advantage-item {
+    padding: 1.2rem 1rem;
+  }
+  
+  .advantage-icon {
     font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .advantage-item h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .advantage-item p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .workflow-step {
+    max-width: 100%;
+    padding-left: 25px;
+  }
+  
+  .workflow-step::before {
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    font-size: 0.8rem;
+  }
+  
+  .step-point {
+    width: 36px;
+    height: 36px;
+    display: none;
+  }
+  
+  .step-line {
+    display: none;
+  }
+  
+  .workflow-timeline {
+    display: none;
+  }
+  
+  .technology-title {
+    font-size: 1.8rem;
+  }
+  
+  .section-description {
+    font-size: 0.9rem;
+  }
+  
+  .advantages-image {
+    height: 250px;
+  }
+  
+  .container {
+    padding: 0 10px;
   }
 }

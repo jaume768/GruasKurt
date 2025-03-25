@@ -23,22 +23,22 @@ export default function Technology() {
             </div>
 
             <div className="workflow-details">
-              <div className="workflow-step">
+              <div className="workflow-step" data-step="1">
                 <h3>Incidencia</h3>
                 <p>El cliente se comunica con su aseguradora habitual.</p>
               </div>
               
-              <div className="workflow-step">
+              <div className="workflow-step" data-step="2">
                 <h3>Notificación</h3>
                 <p>La aseguradora asociada nos asigna el servicio a través de EFI Asistencia.</p>
               </div>
               
-              <div className="workflow-step">
+              <div className="workflow-step" data-step="3">
                 <h3>Ubicación</h3>
                 <p>Una vez asignado, uno de nuestros operadores se dirige al lugar del incidente.</p>
               </div>
               
-              <div className="workflow-step">
+              <div className="workflow-step" data-step="4">
                 <h3>Acción</h3>
                 <p>Enviamos el vehículo al destino que el cliente requiera.</p>
               </div>

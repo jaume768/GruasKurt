@@ -7,6 +7,7 @@ import ServiceOverview from './ServiceOverview';
 import Statistics from './Statistics';
 import Partners from './Partners';
 import ContactSection from './ContactSection';
+import CookieConsent from './CookieConsent';
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <Statistics />
       <Partners />
       <ContactSection />
+      <CookieConsent />
     </main>
   );
 }
