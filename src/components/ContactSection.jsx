@@ -34,7 +34,7 @@ export default function ContactSection() {
     const publicKey = '9cgVf8auM-uTGrWOI';
 
     const templateParams = {
-      to_email: 'jaumefernandezsunyer10@gmail.com',
+      to_email: 'gruasperello@gmail.com',
       name: formData.name,
       email: formData.email,
       phone: formData.phone,
