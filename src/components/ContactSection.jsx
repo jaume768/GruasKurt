@@ -1,13 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './css/ContactSection.css';
 
 export default function ContactSection() {
+  const form = useRef();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
     message: '',
     policy: false
+  });
+  const [formStatus, setFormStatus] = useState({
+    submitting: false,
+    success: null,
+    error: null
   });
 
   const handleChange = (e) => {
@@ -20,15 +27,44 @@ export default function ContactSection() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form data submitted:', formData);
-    alert('Mensaje enviado. Gracias por contactar con nosotros.');
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      message: '',
-      policy: false
-    });
+    setFormStatus({ submitting: true, success: null, error: null });
+
+    const serviceId = 'service_z04ihuq';
+    const templateId = 'template_u2gbd7f';
+    const publicKey = '9cgVf8auM-uTGrWOI';
+
+    const templateParams = {
+      to_email: 'jaumefernandezsunyer10@gmail.com',
+      name: formData.name,
+      email: formData.email,
+      phone: formData.phone,
+      message: formData.message
+    };
+
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        console.log('CORRECTO!', response.status, response.text);
+        setFormStatus({
+          submitting: false,
+          success: 'Tu mensaje ha sido enviado correctamente. Nos pondremos en contacto contigo pronto.',
+          error: null
+        });
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          message: '',
+          policy: false
+        });
+      })
+      .catch((err) => {
+        console.log('ERROR...', err);
+        setFormStatus({
+          submitting: false,
+          success: null,
+          error: 'Ha ocurrido un error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde.'
+        });
+      });
   };
 
   return (
@@ -47,7 +83,20 @@ export default function ContactSection() {
 
         <div className="contact-form-container">
           <h3>Envíanos tus datos</h3>
-          <form className="contact-form" onSubmit={handleSubmit}>
+          
+          {formStatus.success && (
+            <div className="form-success-message">
+              <p>{formStatus.success}</p>
+            </div>
+          )}
+
+          {formStatus.error && (
+            <div className="form-error-message">
+              <p>{formStatus.error}</p>
+            </div>
+          )}
+          
+          <form ref={form} className="contact-form" onSubmit={handleSubmit}>
             <div className="form-group">
               <input
                 type="text"
@@ -106,7 +155,13 @@ export default function ContactSection() {
               </label>
             </div>
 
-            <button type="submit" className="btn-submit">Enviar</button>
+            <button 
+              type="submit" 
+              className="btn-submit"
+              disabled={formStatus.submitting}
+            >
+              {formStatus.submitting ? 'Enviando...' : 'Enviar'}
+            </button>
           </form>
         </div>
       </div>

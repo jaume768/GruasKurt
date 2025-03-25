@@ -37,6 +37,7 @@ export default function Contact() {
       to_email: 'jaumefernandezsunyer10@gmail.com',
       name: formData.name,
       email: formData.email,
+      phone: formData.phone,
       message: formData.message
     };
 
