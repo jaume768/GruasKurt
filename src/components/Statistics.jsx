@@ -1,7 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import './css/Statistics.css';
 
 export default function Statistics() {
+  const { t } = useTranslation();
   const [counterValues, setCounterValues] = useState({
     services: 0,
     satisfaction: 0,
@@ -73,8 +75,8 @@ export default function Statistics() {
             <span className="number">{counterValues.services}</span>
             <span className="highlight">k</span>
           </div>
-          <h3>Servicios/año</h3>
-          <p>Cada año superamos la facturación con los servicios realizados.</p>
+          <h3>{t('statistics.servicesPerYear.title')}</h3>
+          <p>{t('statistics.servicesPerYear.description')}</p>
         </div>
 
         <div className="statistic-card">
@@ -82,8 +84,8 @@ export default function Statistics() {
             <span className="number">{counterValues.satisfaction}</span>
             <span className="highlight">%</span>
           </div>
-          <h3>Clientes satisfechos</h3>
-          <p>Buenas reseñas gracias a nuestra profesionalidad.</p>
+          <h3>{t('statistics.satisfiedClients.title')}</h3>
+          <p>{t('statistics.satisfiedClients.description')}</p>
         </div>
 
         <div className="statistic-card">
@@ -91,8 +93,8 @@ export default function Statistics() {
             <span className="number">{counterValues.years}</span>
             <span className="highlight">+</span>
           </div>
-          <h3>Años en el sector</h3>
-          <p>Experiencia contrastada en el sector de la asistencia.</p>
+          <h3>{t('statistics.yearsInSector.title')}</h3>
+          <p>{t('statistics.yearsInSector.description')}</p>
         </div>
       </div>
     </section>

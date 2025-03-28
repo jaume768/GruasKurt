@@ -1,0 +1,477 @@
+{
+    "about": {
+        "title": "Quiénes somos",
+        "description": "Somos Grúas Perello, una compañía especializada en asistencia vial en las Islas Baleares.",
+        "feature1Title": "Años de experiencia",
+        "feature1Description": "Con más de 30 años de trayectoria en el sector de la movilidad y el auxilio en carretera.",
+        "feature2Title": "Atención continua",
+        "feature2Description": "Brindamos servicio en Mallorca a toda hora, los 365 días del año.",
+        "feature3Title": "Mallorca, nuestra casa",
+        "feature3Description": "Cubrimos toda la isla de Mallorca, actuando en cada rincón.",
+        "efficiency": {
+            "title": "Ágiles",
+            "description": "Organizamos nuestros servicios de forma óptima, gracias a nuestro equipo de profesionales comprometidos.",
+            "imageAlt": "Expertos en acción"
+        },
+        "professionals": {
+            "title": "Especialistas",
+            "description": "Nuestro equipo de gruistas y especialistas se destaca por su rapidez y eficacia en la gestión de cada servicio.",
+            "imageAlt": "Equipo de expertos"
+        }
+    },
+    "contact": {
+        "title": "Contacto",
+        "subtitle": "Envíanos tus datos en el siguiente formulario y contactaremos contigo lo antes posible.",
+        "placeholders": {
+            "name": "Nombre o Empresa",
+            "email": "Email",
+            "phone": "Teléfono",
+            "message": "¿Qué necesitas?"
+        },
+        "submit": "Enviar",
+        "sending": "Enviando...",
+        "emailAddress": "info@gruasmallorca.es",
+        "emailSubtitle": "Escríbenos sin compromiso",
+        "phoneNumber": "971 43 18 40",
+        "phoneSubtitle": "¡Llámanos para lo que necesites!",
+        "addressText": "Carrera Herba Sana, 4, 07110, Baleares",
+        "privacyCheck": "He leído y acepto la política de privacidad",
+        "mapTitle": "Nuestra ubicación en Mallorca",
+        "messages": {
+            "success": "Tu mensaje ha sido enviado correctamente. Nos pondremos en contacto contigo pronto.",
+            "error": "Ha ocurrido un error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde."
+        }
+    },
+    "contactSection": {
+        "title": "Contacta con nosotros",
+        "description": "Ya seas un particular, empresa o compañía y necesitas algunos de nuestros servicios, no dudes en contactarnos sin compromiso.",
+        "imageAlt": "Imagen de contacto",
+        "formTitle": "Envíanos tus datos",
+        "messages": {
+            "success": "Tu mensaje ha sido enviado correctamente. Nos pondremos en contacto contigo pronto.",
+            "error": "Ha ocurrido un error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde."
+        }
+    },
+    "header": {
+        "home": "Inicio",
+        "about": "Nosotros",
+        "services": "Servicios",
+        "technology": "Tecnología",
+        "contact": "Contacto",
+        "coverage": "Cobertura"
+    },
+    "footer": {
+        "rights": " 2025 Grúas Mallorca - Todos los derechos reservados",
+        "privacy": "Política de Privacidad",
+        "terms": "Términos y Condiciones",
+        "cookies": "Política de Cookies",
+        "description": "Asistencia y Auxilio en carretera. Servicio de grúas en Mallorca.",
+        "memberTitle": "Miembros de REAC",
+        "memberDescription": "Pertenecemos a la mayor Red de Empresas de Auxilio en Carretera",
+        "developedBy": "Desarrollado por",
+        "legal": "Aviso legal"
+    },
+    "technology": {
+        "mainTitle": "Trabajamos con la última tecnología",
+        "description": "Nuestro proceso se ejecuta mediante EFI Asistencia, un software de gestión para servicios de auxilio en carretera y manejo de flota.",
+        "imageAlt": "Transporte de camiones",
+        "workflow": {
+            "step1Title": "Incidencia",
+            "step1": "El cliente se comunica con su aseguradora habitual.",
+            "step2Title": "Notificación",
+            "step2": "La aseguradora asociada nos asigna el servicio a través de EFI Asistencia.",
+            "step3Title": "Ubicación",
+            "step3": "Una vez asignado, uno de nuestros operadores se dirige al lugar del incidente.",
+            "step4Title": "Acción",
+            "step4": "Enviamos el vehículo al destino que el cliente requiera."
+        },
+        "advantages": {
+            "title": "Ventajas tecnológicas",
+            "reliability": "Fiabilidad",
+            "reliabilityText": "Máxima seguridad para nuestros datos y la información vinculada a nuestros servicios.",
+            "efficiency": "Eficiencia",
+            "efficiencyText": "Manejo óptimo de nuestra flota y servicios accesible desde cualquier dispositivo.",
+            "professionalism": "Profesionalidad",
+            "professionalismText": "Una imagen más organizada y profesional que se refleja en la calidad de nuestro servicio.",
+            "speed": "Rapidez",
+            "speedText": "Comunicación inmediata con nuestros clientes principales y asignación automática de servicios."
+        }
+    },
+    "services": {
+        "title": "Nuestros Servicios",
+        "subtitle": "Brindamos asistencia vial y auxilio profesional en carretera en Mallorca",
+        "roadAssistance": {
+            "title": "Auxilio en carretera",
+            "description": "Proporcionamos asistencia en carretera, reparando el vehículo en el lugar o remolcándolo mediante cualquiera de nuestros medios disponibles:",
+            "feature1": "Taller móvil",
+            "feature2": "Grúas",
+            "feature3": "Plataformas especializadas",
+            "imageAlt": "Auxilio en carretera"
+        },
+        "transfers": {
+            "title": "Traslados",
+            "description": "Movilizamos grandes flotas en nuestras plataformas de forma segura, llevándolas a cualquier destino sin importar dónde te encuentres.",
+            "imageAlt": "Servicio de traslados"
+        },
+        "rescues": {
+            "title": "Rescates",
+            "description": "Contamos con amplia experiencia en rescates, atendiendo incidentes y accidentes de vehículos o motos, ya sea en desfiladeros o en situaciones de encierro.",
+            "imageAlt": "Servicio de rescates"
+        },
+        "RIS": {
+            "title": "RIS",
+            "description": "Para cualquier inconveniente, contamos con los recursos y herramientas necesarios para reparar tu vehículo en el mismo lugar.",
+            "imageAlt": "Servicio de RIS"
+        }
+    },
+    "fleet": {
+        "title": "Flota totalmente equipada",
+        "description": "Disponemos de todo tipo de medios para cualquier servicio que se nos ofrezca",
+        "imageAlt": "Grúa de Mallorca",
+        "viewFullFleet": "Ver flota completa",
+        "features": {
+            "item1": "Plataformas",
+            "item2": "Patrol",
+            "item3": "Plataformas grúas",
+            "item4": "Camiones",
+            "item5": "Coche taller",
+            "item6": "Plataformas especiales",
+            "item7": "Taxis",
+            "item8": "Grúas parking"
+        }
+    },
+    "home": {
+        "hero": {
+            "title": "Grúas Perello",
+            "subtitle": "Asistencia y Auxilio en carretera",
+            "cta": "Contáctanos",
+            "buttons": {
+                "aboutUs": "Sobre nosotros",
+                "services": "Nuestros servicios"
+            }
+        },
+        "featuredServices": {
+            "title": "Servicios destacados",
+            "viewAll": "Ver todos"
+        },
+        "testimonials": {
+            "title": "Lo que dicen nuestros clientes",
+            "client1": {
+                "name": "María García",
+                "text": "Excelente servicio, rápido y profesional. Me asistieron en menos de 30 minutos."
+            },
+            "client2": {
+                "name": "Juan Pérez",
+                "text": "Muy buena atención telefónica y el servicio de grúa fue eficiente. Muy recomendable."
+            },
+            "client3": {
+                "name": "Laura Martínez",
+                "text": "Atención de calidad y precios justos. Sin duda volveré a contar con ellos."
+            }
+        }
+    },
+    "common": {
+        "goBack": "Volver",
+        "callNow": "Llamar ahora",
+        "chooseLanguage": "Elegir idioma",
+        "contactUs": "Contáctanos",
+        "learnMore": "Saber más"
+    },
+    "cookies": {
+        "title": "Política de Cookies",
+        "description": "Utilizamos cookies propias y de terceros para mejorar nuestros servicios y mostrarle publicidad relacionada con sus preferencias mediante el análisis de sus hábitos de navegación.",
+        "accept": "Aceptar",
+        "reject": "Rechazar"
+    },
+    "cookiesPolicy": {
+        "title": "Política de cookies",
+        "infoTitle": "INFORMACIÓN SOBRE COOKIES",
+        "infoText": "Debido a la entrada en vigor de la referente modificación de la \"Ley de Servicios de la Sociedad de la Información\" (LSSICE) establecida por el Real Decreto 13/2012, es de obligación obtener el consentimiento expreso del usuario de todas las páginas web que usan cookies prescindibles, antes de que éste navegue por ellas.",
+        "whatAreTitle": "¿QUÉ SON LAS COOKIES?",
+        "whatAreText1": "Las cookies y otras tecnologías similares tales como local shared objects, flash cookies o píxeles, son herramientas empleadas por los servidores Web para almacenar y recuperar información acerca de sus visitantes, así como para ofrecer un correcto funcionamiento del sitio.",
+        "whatAreText2": "Mediante el uso de estos dispositivos se permite al servidor Web recordar algunos datos concernientes al usuario, como sus preferencias para la visualización de las páginas de ese servidor, nombre y contraseña, productos que más le interesan, etc.",
+        "regulationTitle": "COOKIES AFECTADAS POR LA NORMATIVA Y COOKIES EXCEPTUADAS",
+        "regulationText": "Según la directiva de la UE, las cookies que requieren el consentimiento informado por parte del usuario son las cookies de analítica y las de publicidad y afiliación, quedando exceptuadas las de carácter técnico y las necesarias para el funcionamiento del sitio web o la prestación de servicios expresamente solicitados por el usuario.",
+        "typesTitle": "¿QUÉ TIPOS DE COOKIES EXISTEN?",
+        "typesIntro": "Sobre los tipos de cookies, existen cinco grandes grupos:",
+        "typesList": {
+            "item1": "Cookies analíticas: recogen información del uso que se realiza del sitio web.",
+            "item2": "Cookies sociales: son aquellas necesarias para redes sociales externas.",
+            "item3": "Cookies de afiliados: permiten hacer un seguimiento de las visitas procedentes de otras webs, con las que el sitio web establece un contrato de afiliación (empresas de afiliación).",
+            "item4": "Cookies de publicidad y comportamentales: recogen información sobre las preferencias y elecciones personales del usuario (retargeting).",
+            "item5": "Cookies técnicas y funcionales: son las estrictamente necesarias para el uso del sitio web y para la prestación del servicio contratado."
+        },
+        "usedTitle": "COOKIES QUE SE UTILIZAN EN ESTE SITIO WEB",
+        "usedIntro": "Listar los nombres de las cookies, tipo, propietario, función y vencimiento, por ejemplo:",
+        "usedList": {
+            "item1": "PHPSESSID: cookie técnica y estrictamente necesaria que contiene el identificador de la sesión. Se elimina al cerrar el navegador.",
+            "item2": "_lang: cookie técnica y estrictamente necesaria que contiene el idioma de la sesión. Se elimina al cerrar el navegador.",
+            "item3": "ac_cookies: cookie técnica y estrictamente necesaria que contiene el valor de si se ha aceptado la instalación de cookies. Caduca en 1 año desde la última actualización."
+        },
+        "googleMapsTitle": "SERVICIO DE GOOGLE MAPS",
+        "googleMapsText1": "Google Maps permite la inserción de mapas en las webs de terceros, como la presente. Las cookies utilizadas por Google Maps son: SID, SAPISID, APISID, SSID, HSID, NID, PREF.",
+        "googleMapsText2": "Sirven para establecer varios identificadores únicos, salvo la cookie PREF, que es utilizada para mostrar las preferencias del zoom de los mapas.",
+        "googleMapsText3": "La cookie PREF tiene una duración de un año. Las cookies SAPISID, APISID, SSID, HSID, SID, tienen una duración de dos años. El resto son cookies de sesión, o que tienen una permanencia corta.",
+        "googlePrivacyInfo": "Si desea obtener más información, visite el siguiente enlace:",
+        "googleCookiesInfo": "Para más información sobre las cookies que utiliza Google Maps, puede visitar el siguiente enlace:",
+        "revokeTitle": "REVOCACIÓN DEL CONSENTIMIENTO PARA INSTALAR COOKIES",
+        "deleteTitle": "COMO ELIMINAR LAS COOKIES DEL NAVEGADOR",
+        "chrome": {
+            "step1": "Selecciona el icono de Herramientas",
+            "step2": "Haz clic en Configuración.",
+            "step3": "Haz clic en Mostrar Opciones Avanzadas.",
+            "step4": "En la sección \"Privacidad\" haz clic en Configuración de contenido.",
+            "step5": "Eliminar cookies: Haz clic en Todas las cookies y los datos de sitios...",
+            "step6": "No permitir que se almacenen cookies.",
+            "step7": "Haz clic en Eliminar datos de navegación (vaciar la Caché).",
+            "step8": "Cierra y reinicia el navegador."
+        },
+        "chromeMoreInfo": "Para más información sobre Chrome pulse aquí:",
+        "ieTitle": "Internet Explorer. Versión 11",
+        "ie": {
+            "step1": "Selecciona Herramientas > Opciones de Internet.",
+            "step2": "Haz clic en la ficha General.",
+            "step3": "En la sección \"Historial de exploración\", haz clic en Eliminar el historial de exploración al salir.",
+            "step4": "Seleccionar Eliminar archivos.",
+            "step5": "Seleccionar Eliminar cookies.",
+            "step6": "Haz clic en Eliminar.",
+            "step7": "Haz clic en Aceptar.",
+            "step8": "Cierra y reinicia el navegador."
+        },
+        "ieMoreInfo": "Para más información sobre Internet Explorer pulse aquí:",
+        "firefoxTitle": "Firefox. Versión 18",
+        "firefox": {
+            "step1": "Selecciona Firefox > Historial > Limpiar el historial reciente.",
+            "step2": "Al lado de \"Detalles\", haz clic en la flecha hacia abajo.",
+            "step3": "Selecciona las siguientes casillas de verificación: Cookies, Caché, Inicios de sesión activos",
+            "step4": "Usando el \"Intervalo de tiempo para borrar\" en el menú desplegable, selecciona Todo.",
+            "step5": "Haz clic en Borrar ahora.",
+            "step6": "Cierra y reinicia el navegador."
+        },
+        "firefoxPreferences": "Puede aceptar o rechazar las cookies individualmente en las Preferencias de Firefox, en la sección Historial disponible en Herramientas > Opciones > Privacidad.",
+        "firefoxMoreInfo": "Para más información sobre Mozilla Firefox pulse aquí:",
+        "safariTitle": "Safari Versión 5.1",
+        "safari": {
+            "step1": "Selecciona el icono de Safari > Editar > Restaurar Safari.",
+            "step2": "Selecciona las siguientes casillas de verificación: Borrar el historial, Eliminar todos los datos de sitio web",
+            "step3": "Haz clic en Restablecer.",
+            "step4": "Cierra y reinicia el navegador."
+        },
+        "safariMoreInfo": "Para más información sobre Safari pulse aquí:",
+        "operaSteps": "Opciones > Avanzado > Cookies. Las opciones de cookies controlan el modo en que Opera los maneja y, por lo tanto, su aceptación o rechazo.",
+        "operaMoreInfo": "Para más información sobre Ópera pulse aquí:",
+        "otherTitle": "Otros navegadores",
+        "otherText": "Consulte la documentación del navegador que tenga instalado."
+    },
+    "coverage": {
+        "title": "Cobertura de servicios",
+        "mapTitle": "Mapa de cobertura en Mallorca",
+        "description": "Te mostramos todas las ubicaciones donde actuamos para gestionar todo tipo de servicios relacionados con la asistencia y auxilio en carretera en toda la isla de Mallorca:",
+        "locations": {
+            "location1": "Mallorca",
+            "location2": "Manacor",
+            "location3": "Sóller",
+            "location4": "Santa Ponsa",
+            "location5": "El Arenal",
+            "location6": "Cala d'Or",
+            "location7": "Campos",
+            "location8": "Cala Rajada"
+        }
+    },
+    "legal": {
+        "title": "Aviso Legal",
+        "intro": "En cumplimiento con el deber de información recogido en artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, a continuación se reflejan los siguientes datos: La empresa titular de la web (en adelante, LA EMPRESA) pone a su disposición la siguiente información:",
+        "companyInfo": {
+            "identification": "Identificación",
+            "name": "GRÚAS PERELLÓ, S.L.",
+            "cif": "CIF",
+            "address": "Dirección",
+            "addressValue": "Vía Argentina 57, 07200, Felanitx, Baleares",
+            "phone": "Teléfono",
+            "phoneValue": "+34 971 58 12 60",
+            "email": "Email",
+            "emailValue": "Gruasperello@gmail.com"
+        },
+        "usage": "La utilización de la web le atribuye la condición de usuario de la web (en adelante el \"Usuario\") e implica la aceptación plena y sin reservas de todas y cada una de las disposiciones incluidas en este Aviso Legal en la versión publicada por LA EMPRESA en el momento mismo en que el Usuario acceda a la Web. LA EMPRESA se reserva el derecho a modificar unilateralmente, en cualquier momento y sin previo aviso, la presentación y configuración de los contenidos y los servicios de la Web, así como las condiciones requeridas para su utilización cuando ello sea conveniente para su mejor prestación.",
+        "copyright": "El contenido de la presente web está protegido por las leyes de propiedad intelectual.",
+        "properUsage": "Dichos contenidos deberán ser usados de forma correcta y licita por el usuario y, en particular queda obligado a utilizar dichos contenidos de forma diligente, correcta y lícita.",
+        "prohibitedUse1": "No podrán usarse los contenidos de forma contraria a la ley, a la moral o a las buenas costumbres aceptadas en orden público.",
+        "prohibitedUse2": "Está prohibida la transmisión de cualquier tipo de datos que usted pueda realizar a esta web, o a otros pertenecientes a terceras empresas cuyos links podrá encontrar dentro de esta web, que atente contra los derechos de propiedad de terceros de carácter amenazador o material que pueda ser considerado delito o falta en virtud del vigente Código Penal.",
+        "prohibitedUse3": "Queda prohibida la reproducción, copia, distribución, transformación o modificación de contenidos (textos, imágenes, voces o estructura) a menos que se cuente con la autorización expresa y por escrito del titular de los derechos adquiridos."
+    },
+    "privacy": {
+        "title": "Política de Privacidad",
+        "intro": "Esta política habla sobre cómo tratamos y trataremos tu información de carácter personal, concretamente con la aplicación del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta a la protección de datos personales y su libre circulación (RPGD) y la Ley Orgánica 3/2018, de 5 de diciembre, de protección de datos personales y garantía de los derechos digitales (LOPDGD).",
+        "identification": {
+            "title": "Identificación del Responsable del Tratamiento",
+            "text": "En cumplimiento de lo establecido en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales y en el art. 13 del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016, relativo al derecho a la información que le asiste, le informamos que, mediante la aceptación de la presente Política de Privacidad, el usuario (en adelante el \"Usuario\") queda informado y presta su consentimiento libre, informado, específico e inequívoco para que los datos personales que facilite a través de la página Web ubicada en la URL https://www.gruasperello.com, (en adelante, el \"Sitio Web\") sean tratados por:"
+        },
+        "company": {
+            "identification": "Identificación",
+            "name": "GRÚAS PERELLÓ, S.L.",
+            "cif": "CIF",
+            "cifValue": "",
+            "address": "Dirección",
+            "addressValue": "Vía Argentina 57, 07200, Felanitx, Baleares",
+            "phone": "Teléfono",
+            "phoneValue": "+34 971 58 12 60",
+            "email": "Email",
+            "emailValue": "Gruasperello@gmail.com"
+        },
+        "dataOrigin": {
+            "title": "Procedencia y categorías de datos tratados",
+            "text": "Los datos personales que trata GRÚAS PERELLÓ, S.L., proceden directamente de sus clientes y usuarios. Las categorías de datos que se tratan son:",
+            "list": {
+                "item1": "Datos de identificación: nombre, apellidos, DNI/NIF/CIF, dirección postal, dirección de correo electrónico, código postal, teléfono.",
+                "item2": "Códigos o claves de identificación de usuario.",
+                "item3": "Direcciones postales o electrónicas.",
+                "item4": "Información comercial.",
+                "item5": "Datos económicos y bancarios."
+            },
+            "disclaimer": "No se tratan datos especialmente protegidos. Los datos personales solicitados son obligatorios, de tal forma que la negativa a suministrarlos puede suponer la imposibilidad de llevar a cabo la prestación de los servicios o la adquisición de los bienes contratados. En caso de que el usuario facilite datos de terceros, manifiesta contar con el consentimiento de los mismos y se compromete a trasladarle la información contenida en esta cláusula, eximiendo a GRÚAS PERELLÓ, S.L. de cualquier responsabilidad en este sentido. No obstante, GRÚAS PERELLÓ, S.L. podrá llevar a cabo las verificaciones para constatar este hecho, adoptando las medidas de diligencia debida que correspondan, conforme a la normativa de protección de datos."
+        },
+        "purpose": {
+            "title": "Finalidad del Tratamiento y naturaleza de los datos recabados",
+            "registeredUsers": {
+                "title": "Usuarios Registrados",
+                "text": "La información que nos proporciones en el formulario de registro se utiliza para la gestión de Usuarios de la página web, con el fin de que puedas acceder a tu perfil, a la plataforma online, consultar tus pedidos y realizar tus compras sin que tengas que introducir de nuevo tus datos identificativos. Antes de realizar un pedido los usuarios deben registrarse en el apartado \"Mi cuenta\" para que podamos tramitar el pedido en base a los datos fiscales del cliente, como dirección, DNI o datos de contacto."
+            },
+            "newsletter": {
+                "title": "Suscriptores a Newsletter",
+                "text": "En los casos en los que nos otorgues tu consentimiento según lo previsto en el artículo 21 de la Ley de Servicios de la Sociedad de la Información, utilizaremos tus datos identificativos y de contacto para enviarte información acerca de noticias de su interés y sobre nuestros productos y servicios."
+            }
+        },
+        "duration": {
+            "title": "Duración del tratamiento de los datos",
+            "text": "GRÚAS PERELLÓ, S.L. conservará los datos personales de los usuarios únicamente durante el tiempo necesario para la realización de las finalidades para las que fueron recogidos, mientras no revoque los consentimientos otorgados. Posteriormente, en caso de ser necesario, mantendrá la información bloqueada los plazos legalmente establecidos o el plazo establecido por ley para cualquier acción que pueda devenir del tratamiento.",
+            "webClients": {
+                "title": "Clientes Web",
+                "text": "La información se conservará durante el plazo necesario para gestionar la entrega y facturación de los productos adquiridos; posteriormente la información se conservará para el seguimiento de las acciones comerciales durante el plazo de prescripción de acciones legales y superado dicho periodo se suprimirá."
+            },
+            "registeredUsers": {
+                "title": "Usuarios Registrados",
+                "text": "La información de los Usuarios registrados se conservará de manera indefinida a menos que el Usuario solicite la baja como Usuario registrado."
+            }
+        },
+        "legitimation": {
+            "title": "Legitimación en el tratamiento de los datos",
+            "text1": "La legitimación para el tratamiento de los datos del usuario por parte de GRÚAS PERELLÓ, S.L. para llevar a cabo el alta y registro del usuario en la Plataforma se encuentra en el consentimiento del interesado, solicitado para el caso concreto.",
+            "text2": "Por su parte, la gestión de la contratación de productos o servicios, pago, facturación y envíos correspondientes, está legitimada por la propia ejecución del contrato.",
+            "text3": "Además, el tratamiento de los datos con el fin de remitir boletines electrónicos con ofertas, promociones y noticias relacionadas con nuestros servicios, información comercial y/o promocional, también se basan en el interés legítimo de GRÚAS PERELLÓ, S.L. para llevar a cabo dichos tratamientos de acuerdo con la normativa vigente.",
+            "text4": "Los consentimientos obtenidos para las finalidades mencionadas son independientes por lo que el usuario podrá revocar uno o varios de ellos no afectando a los demás.",
+            "text5": "Igualmente se podrá utilizar la información del usuario para el cumplimiento de las diferentes obligaciones legales de GRÚAS PERELLÓ, S.L."
+        },
+        "decisions": {
+            "title": "Decisiones",
+            "subtitle": "Decisiones automatizadas, perfiles y lógica aplicada:",
+            "text": "La empresa NO tomará decisiones automatizadas, perfiles o lógica aplicada a sus datos."
+        },
+        "recipients": {
+            "title": "Destinatarios de los Datos y Transferencias Internacionales",
+            "question": "¿A qué destinatarios se comunicarán tus datos?",
+            "list": {
+                "item1": "A Bancos y entidades financieras para el cobro de los servicios ofrecidos.",
+                "item2": "A la Oficina de consumidores y usuarios en caso de existir alguna reclamación.",
+                "item3": "A los fabricantes, Servicios técnicos y/o mayoristas en el caso de garantías o reparaciones. A aquellas empresas transportistas que puedan tener encargado el envío a los clientes de los pedidos correspondientes.",
+                "item4": "En los supuestos legalmente establecidos, como es el caso de las Fuerzas y Cuerpos de Seguridad.",
+                "item5": "A las administraciones públicas a las que GRÚAS PERELLÓ, S.L. tenga que facilitar información con motivo del cumplimiento de nuestras obligaciones legales."
+            }
+        },
+        "rights": {
+            "title": "Derechos de los usuarios",
+            "intro": "El interesado puede ejercer los siguientes derechos:",
+            "list": {
+                "item1": "Derecho a solicitar el acceso a sus datos personales.",
+                "item2": "Derecho a solicitar su rectificación o supresión.",
+                "item3": "Derecho a solicitar la limitación de su tratamiento.",
+                "item4": "Derecho a oponerse al tratamiento.",
+                "item5": "Derecho a la portabilidad de los datos.",
+                "item6": "Derecho a retirar el consentimiento prestado."
+            },
+            "limitations": "En determinadas circunstancias, los interesados podrán solicitar la limitación del tratamiento de sus datos, en cuyo caso únicamente se conservarán para el ejercicio o la defensa de reclamaciones. En determinadas circunstancias y por motivos relacionados con su situación particular, los interesados podrán oponerse al tratamiento de sus datos. En este caso, la entidad dejará de tratar los datos, salvo por motivos legítimos imperiosos, o el ejercicio o la defensa de posibles reclamaciones.",
+            "withdrawConsent": "Si se otorga un consentimiento para alguna finalidad concreta, el usuario tiene derecho a retirar el consentimiento otorgado en cualquier momento, sin que ello afecte a la licitud del tratamiento basado en el consentimiento previo a su retirada.",
+            "exercise": "El ejercicio de los derechos citados es personalísimo, por lo que será necesario que el usuario acredite su identidad. Para ejercitar los citados derechos previstos en la legislación, el usuario puede dirigirse a GRÚAS PERELLÓ, S.L. a través del correo electrónico a: Gruasperello@gmail.com o mediante escrito dirigido a la dirección Vía Argentina 57, 07200, Felanitx, Baleares.",
+            "communicationTitle": "La comunicación contendrá los siguientes datos y documentos:",
+            "communicationList": {
+                "item1": "Nombre y apellidos del interesado, adjuntando fotocopia del DNI u otro documento válido que lo identifique y, en su caso, de la persona que lo represente; la utilización de firma electrónica eximirá de la presentación de estos documentos.",
+                "item2": "Indicación del domicilio del interesado y petición en que se concreta la solicitud (el derecho que se pretende ejercitar). En caso de que sienta vulnerados sus derechos en lo concerniente a la protección de sus datos personales, especialmente cuando no haya obtenido satisfacción en el ejercicio de sus derechos, puede presentar una reclamación ante la Autoridad de Control en materia de Protección de Datos competente a través de su sitio web: www.agpd.es"
+            }
+        },
+        "security": {
+            "title": "Seguridad",
+            "text": "GRÚAS PERELLÓ, S.L. cumple con las directrices del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos (RGPD), así como la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGD) y demás normativa vigente en cada momento, y vela por garantizar el correcto uso y tratamiento de los datos personales del usuario."
+        },
+        "cookies": {
+            "title": "Cookies",
+            "text": "GRÚAS PERELLÓ, S.L. le informa de que tiene instaladas cookies en sus sistemas. Las cookies son pequeños archivos de texto que el navegador almacena dentro del disco duro de su ordenador. Al acceder a la Web de GRÚAS PERELLÓ, S.L. el servidor podrá reconocer la cookie y proporcionar información sobre su última visita, mejorando o facilitando la experiencia de navegación. Puede encontrar más información al respecto en nuestra Política de Cookies."
+        },
+        "modifications": {
+            "title": "Modificaciones",
+            "text": "GRÚAS PERELLÓ, S.L. se reserva el derecho a modificar esta Política de Privacidad de acuerdo con la legislación aplicable en cada momento. Por ello, es recomendable que el usuario revise periódicamente esta Política de Privacidad con la finalidad de estar informado del tratamiento y la protección de los datos personales, así como de los derechos que le asisten."
+        },
+        "legislation": {
+            "title": "Legislación Aplicable",
+            "text": "La presente Política se regirá e interpretará conforme a la legislación española, al igual que la resolución de cualquier controversia o divergencia relacionada con el presente sitio Web. El uso de los servicios del presente sitio web supone la aceptación expresa de la jurisdicción española."
+        }
+    },
+    "statistics": {
+        "servicesPerYear": {
+            "title": "Servicios/año",
+            "description": "Cada año superamos la facturación con los servicios realizados."
+        },
+        "satisfiedClients": {
+            "title": "Clientes satisfechos",
+            "description": "Buenas reseñas gracias a nuestra profesionalidad."
+        },
+        "yearsInSector": {
+            "title": "Años en el sector",
+            "description": "Experiencia contrastada en el sector de la asistencia."
+        }
+    },
+    "serviceFeatures": {
+        "service24h": "Servicio 24h",
+        "efficient": "Eficientes",
+        "experts": "Expertos",
+        "islandInfo": {
+            "title": "Operamos en la isla de Mallorca",
+            "description": "Ofrecemos diferentes servicios como asistencia en carretera, asistencia en garajes, rescate por accidentes, traslados de vehículos, cambio de ruedas, pérdida de llaves, servicios urgentes, conexión de pinzas, cesión entre concesionarios, etc.",
+            "actionButton": "Ver zonas de actuación"
+        }
+    },
+    "serviceOverview": {
+        "title": "Nuestros servicios",
+        "subtitle": "Ofrecemos todo tipo de asistencia.",
+        "roadside": {
+            "title": "Asistencia en carretera",
+            "description": "Ofrecemos asistencia y auxilio en carretera para cualquier vehículo así como remolcarlo a cualquier medio de nuestra flota.",
+            "imageAlt": "Asistencia en carretera"
+        },
+        "vehicleTransfer": {
+            "title": "Traslado de vehículos",
+            "description": "Trasladamos grandes flotas de vehículos en nuestras plataformas de forma segura a cualquier punto estés donde estés.",
+            "imageAlt": "Traslado de vehículos"
+        },
+        "ris": {
+            "title": "RIS",
+            "description": "Ante cualquier incidente con tu vehículo, tenemos todos los medios y herramientas necesarios para reparar el vehículo in situ.",
+            "imageAlt": "RIS"
+        }
+    },
+    "partners": {
+        "title": "Nuestras compañías",
+        "subtitle": "Estas son las diferentes compañías con las que trabajamos",
+        "logoPrefix": "Logo de"
+    },
+    "reacSection": {
+        "logoAlt": "Logo REAC",
+        "title": "Pertenecemos a REAC",
+        "description": "La mayor Red de Empresas de Auxilio en Carretera en España"
+    },
+    "topbar": {
+        "reacInfo": "REAC - Red de Empresas de Auxilio en Carretera"
+    },
+    "whatsapp": {
+        "defaultMessage": "Hola, me gustaría obtener más información sobre sus servicios.",
+        "buttonTooltip": "Contáctanos por WhatsApp"
+    }
+}

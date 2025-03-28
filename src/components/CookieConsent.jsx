@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './css/CookieConsent.css';
+import { useTranslation } from 'react-i18next';
 
 const CookieConsent = () => {
+  const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -29,17 +31,16 @@ const CookieConsent = () => {
   return (
     <div className="cookie-consent">
       <div className="cookie-content">
-        <h3>Política de Cookies</h3>
+        <h3>{t('cookies.title')}</h3>
         <p>
-          Utilizamos cookies propias y de terceros para mejorar nuestros servicios y mostrarle 
-          publicidad relacionada con sus preferencias mediante el análisis de sus hábitos de navegación.
+          {t('cookies.description')}
         </p>
         <div className="cookie-buttons">
           <button className="btn-accept" onClick={handleAccept}>
-            Aceptar
+            {t('cookies.accept')}
           </button>
           <button className="btn-reject" onClick={handleReject}>
-            Rechazar
+            {t('cookies.reject')}
           </button>
         </div>
       </div>

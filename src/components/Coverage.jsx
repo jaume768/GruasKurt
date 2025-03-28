@@ -1,12 +1,16 @@
 import React from 'react';
 import './css/Coverage.css';
+import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 export default function Coverage() {
+  const { t } = useTranslation();
+  
   return (
     <main className="coverage">
       <section className="coverage-map-section">
         <div className="container">
-          <h1 className="coverage h1">Cobertura de servicios</h1>
+          <h1 className="coverage h1">{t('coverage.title')}</h1>
           
           <div className="coverage-content">
             <div className="map-container">
@@ -17,57 +21,57 @@ export default function Coverage() {
                 style={{ border: 0 }} 
                 allowFullScreen="" 
                 loading="lazy"
-                title="Mapa de cobertura en Mallorca"
+                title={t('coverage.mapTitle')}
               ></iframe>
             </div>
             
             <div className="coverage-info">
               <p className="coverage-description">
-                Te mostramos todas las ubicaciones donde actuamos para gestionar todo tipo de servicios relacionados con la asistencia y auxilio en carretera en toda la isla de Mallorca:
+                {t('coverage.description')}
               </p>
               
               <div className="coverage-locations">
                 <ul className="locations-list">
                   <li>
                     <span className="location-dot"></span>
-                    Mallorca
+                    {t('coverage.locations.location1')}
                   </li>
                   <li>
                     <span className="location-dot"></span>
-                    Manacor
+                    {t('coverage.locations.location2')}
                   </li>
                   <li>
                     <span className="location-dot"></span>
-                    Sóller
+                    {t('coverage.locations.location3')}
                   </li>
                   <li>
                     <span className="location-dot"></span>
-                    Santa Ponsa
+                    {t('coverage.locations.location4')}
                   </li>
                 </ul>
                 
                 <ul className="locations-list">
                   <li>
                     <span className="location-dot"></span>
-                    El Arenal
+                    {t('coverage.locations.location5')}
                   </li>
                   <li>
                     <span className="location-dot"></span>
-                    Cala d'Or
+                    {t('coverage.locations.location6')}
                   </li>
                   <li>
                     <span className="location-dot"></span>
-                    Campos
+                    {t('coverage.locations.location7')}
                   </li>
                   <li>
                     <span className="location-dot"></span>
-                    Cala Rajada
+                    {t('coverage.locations.location8')}
                   </li>
                 </ul>
               </div>
               
               <div className="coverage-buttons">
-                <a href="/contacto" className="btn btn-primary">Contáctanos</a>
+                <Link to="/contacto" className="btn btn-primary">{t('common.contactUs')}</Link>
               </div>
             </div>
           </div>

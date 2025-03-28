@@ -1,20 +1,33 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import './css/Header.css';
 
 export default function Header() {
   const location = useLocation();
+  const { i18n, t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
-  
+
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
-  
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+  };
+
   return (
     <header>
       <div className="container-header">
-        <Link to="/" className={location.pathname === '/' ? 'active' : ''} onClick={() => setMenuOpen(false)}><img src="/gruas-perello.jpg" alt="Logo" className="logo" /></Link>
-        
+        <Link to="/" className={location.pathname === '/' ? 'active' : ''} onClick={() => setMenuOpen(false)}>
+          <img src="/gruas-perello.jpg" alt="Logo" className="logo" />
+        </Link>
+
+        <div className="language-selector">
+          <button onClick={() => changeLanguage('es')}>ES</button>
+          <button onClick={() => changeLanguage('en')}>EN</button>
+        </div>
+
         <div className="mobile-menu-toggle" onClick={toggleMenu}>
           <div className={`hamburger ${menuOpen ? 'open' : ''}`}>
             <span></span>
@@ -22,20 +35,20 @@ export default function Header() {
             <span></span>
           </div>
         </div>
-        
+
         {menuOpen && <div className="menu-overlay" onClick={toggleMenu}></div>}
-        
+
         <nav className={menuOpen ? 'open' : ''}>
           <ul>
-            <li><Link to="/" className={location.pathname === '/' ? 'active' : ''} onClick={() => setMenuOpen(false)}><b>Inicio</b></Link></li>
-            <li><Link to="/la-empresa" className={location.pathname === '/la-empresa' ? 'active' : ''} onClick={() => setMenuOpen(false)}><b>La Empresa</b></Link></li>
-            <li><Link to="/servicios" className={location.pathname === '/servicios' ? 'active' : ''} onClick={() => setMenuOpen(false)}><b>Servicios</b></Link></li>
-            {/* <li><Link to="/flota" className={location.pathname === '/flota' ? 'active' : ''} onClick={() => setMenuOpen(false)}><b>Flota</b></Link></li> */}
-            <li><Link to="/tecnologia" className={location.pathname === '/tecnologia' ? 'active' : ''} onClick={() => setMenuOpen(false)}><b>Tecnología</b></Link></li>
-            <li><Link to="/cobertura" className={location.pathname === '/cobertura' ? 'active' : ''} onClick={() => setMenuOpen(false)}><b>Cobertura</b></Link></li>
-            <li><Link to="/contacto" className={location.pathname === '/contacto' ? 'active' : ''} onClick={() => setMenuOpen(false)}><b>Contacto</b></Link></li>
+            <li><Link to="/" className={location.pathname === '/' ? 'active' : ''} onClick={() => setMenuOpen(false)}><b>{t('header.home')}</b></Link></li>
+            <li><Link to="/la-empresa" className={location.pathname === '/la-empresa' ? 'active' : ''} onClick={() => setMenuOpen(false)}><b>{t('header.about')}</b></Link></li>
+            <li><Link to="/servicios" className={location.pathname === '/servicios' ? 'active' : ''} onClick={() => setMenuOpen(false)}><b>{t('header.services')}</b></Link></li>
+            <li><Link to="/tecnologia" className={location.pathname === '/tecnologia' ? 'active' : ''} onClick={() => setMenuOpen(false)}><b>{t('header.technology')}</b></Link></li>
+            <li><Link to="/cobertura" className={location.pathname === '/cobertura' ? 'active' : ''} onClick={() => setMenuOpen(false)}><b>{t('header.coverage')}</b></Link></li>
+            <li><Link to="/contacto" className={location.pathname === '/contacto' ? 'active' : ''} onClick={() => setMenuOpen(false)}><b>{t('header.contact')}</b></Link></li>
           </ul>
         </nav>
+
       </div>
     </header>
   );

@@ -1,14 +1,17 @@
 import React from 'react';
 import './css/Technology.css';
+import { useTranslation } from 'react-i18next';
 
 export default function Technology() {
+  const { t } = useTranslation();
+  
   return (
     <main className="technology">
       <section className="technology-workflow">
         <div className="container">
-          <h1 className="technology-title">Utilizamos tecnología de punta</h1>
+          <h1 className="technology-title">{t('technology.mainTitle')}</h1>
           <p className="section-description">
-            Nuestro proceso se ejecuta mediante EFI Asistencia, un software de gestión para servicios de auxilio en carretera y manejo de flota.
+            {t('technology.description')}
           </p>
 
           <div className="workflow-steps">
@@ -24,23 +27,23 @@ export default function Technology() {
 
             <div className="workflow-details">
               <div className="workflow-step" data-step="1">
-                <h3>Incidencia</h3>
-                <p>El cliente se comunica con su aseguradora habitual.</p>
+                <h3>{t('technology.workflow.step1Title')}</h3>
+                <p>{t('technology.workflow.step1')}</p>
               </div>
               
               <div className="workflow-step" data-step="2">
-                <h3>Notificación</h3>
-                <p>La aseguradora asociada nos asigna el servicio a través de EFI Asistencia.</p>
+                <h3>{t('technology.workflow.step2Title')}</h3>
+                <p>{t('technology.workflow.step2')}</p>
               </div>
               
               <div className="workflow-step" data-step="3">
-                <h3>Ubicación</h3>
-                <p>Una vez asignado, uno de nuestros operadores se dirige al lugar del incidente.</p>
+                <h3>{t('technology.workflow.step3Title')}</h3>
+                <p>{t('technology.workflow.step3')}</p>
               </div>
               
               <div className="workflow-step" data-step="4">
-                <h3>Acción</h3>
-                <p>Enviamos el vehículo al destino que el cliente requiera.</p>
+                <h3>{t('technology.workflow.step4Title')}</h3>
+                <p>{t('technology.workflow.step4')}</p>
               </div>
             </div>
           </div>
@@ -52,43 +55,43 @@ export default function Technology() {
         <div className="container">
           <div className="advantages-content">
             <div className="advantages-image">
-              <img src="/tech.png" alt="Transporte de camiones" />
+              <img src="/tech.png" alt={t('technology.imageAlt')} />
             </div>
             
             <div className="advantages-info">
-              <h2 className="section-title">Beneficios tecnológicos</h2>
+              <h2 className="section-title">{t('technology.advantages.title')}</h2>
               
               <div className="advantages-grid">
                 <div className="advantage-item">
                   <div className="advantage-icon">
                     <i className="fa-solid fa-shield-halved"></i>
                   </div>
-                  <h3>Confiabilidad</h3>
-                  <p>Máxima seguridad para nuestros datos y la información vinculada a nuestros servicios.</p>
+                  <h3>{t('technology.advantages.reliability')}</h3>
+                  <p>{t('technology.advantages.reliabilityText')}</p>
                 </div>
                 
                 <div className="advantage-item">
                   <div className="advantage-icon">
                     <i className="fa-solid fa-gauge-high"></i>
                   </div>
-                  <h3>Eficacia</h3>
-                  <p>Manejo óptimo de nuestra flota y servicios accesible desde cualquier dispositivo.</p>
+                  <h3>{t('technology.advantages.efficiency')}</h3>
+                  <p>{t('technology.advantages.efficiencyText')}</p>
                 </div>
                 
                 <div className="advantage-item">
                   <div className="advantage-icon">
                     <i className="fa-solid fa-briefcase"></i>
                   </div>
-                  <h3>Profesionalismo</h3>
-                  <p>Una imagen más organizada y profesional que se refleja en la calidad de nuestro servicio.</p>
+                  <h3>{t('technology.advantages.professionalism')}</h3>
+                  <p>{t('technology.advantages.professionalismText')}</p>
                 </div>
                 
                 <div className="advantage-item">
                   <div className="advantage-icon">
                     <i className="fa-solid fa-bolt"></i>
                   </div>
-                  <h3>Velocidad</h3>
-                  <p>Comunicación inmediata con nuestros clientes principales y asignación automática de servicios.</p>
+                  <h3>{t('technology.advantages.speed')}</h3>
+                  <p>{t('technology.advantages.speedText')}</p>
                 </div>
               </div>
             </div>

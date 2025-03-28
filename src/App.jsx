@@ -15,6 +15,7 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import CookiesPolicy from './components/CookiesPolicy';
 import ScrollToTop from './components/ScrollToTop';
 import WhatsAppButton from './components/WhatsAppButton';
+import '../i18n';
 
 function App() {
   return (

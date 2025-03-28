@@ -1,8 +1,10 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './css/Contact.css';
+import { useTranslation } from 'react-i18next';
 
 export default function Contact() {
+  const { t } = useTranslation();
   const form = useRef();
   const [formData, setFormData] = useState({
     name: '',
@@ -46,7 +48,7 @@ export default function Contact() {
         console.log('CORRECTO!', response.status, response.text);
         setFormStatus({
           submitting: false,
-          success: 'Tu mensaje ha sido enviado correctamente. Nos pondremos en contacto contigo pronto.',
+          success: t('contact.messages.success'),
           error: null
         });
         setFormData({
@@ -62,14 +64,14 @@ export default function Contact() {
         setFormStatus({
           submitting: false,
           success: null,
-          error: 'Ha ocurrido un error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde.'
+          error: t('contact.messages.error')
         });
       });
   };
 
   return (
     <main className="contact">
-      <h1 className="contact h1">Contacto</h1>
+      <h1 className="contact h1">{t('contact.title')}</h1>
 
       <section className="contact-info-cards-contacto">
         <div className="container-contacto">
@@ -78,23 +80,23 @@ export default function Contact() {
               <div className="icon-contacto">
                 <i className="fa-regular fa-envelope"></i>
               </div>
-              <h3 className="info-title-contacto">Gruasperello@gmail.com</h3>
-              <p className="info-subtitle-contacto">Escríbenos sin compromiso</p>
+              <h3 className="info-title-contacto">{t('contact.emailAddress')}</h3>
+              <p className="info-subtitle-contacto">{t('contact.emailSubtitle')}</p>
             </div>
 
             <div className="info-card-contacto">
               <div className="icon-contacto">
                 <i className="fa-solid fa-mobile-screen"></i>
               </div>
-              <h3 className="info-title-contacto">(+34) 971 58 12 60</h3>
-              <p className="info-subtitle-contacto">¡Llámanos para lo que necesites!</p>
+              <h3 className="info-title-contacto">{t('contact.phoneNumber')}</h3>
+              <p className="info-subtitle-contacto">{t('contact.phoneSubtitle')}</p>
             </div>
 
             <div className="info-card-contacto">
               <div className="icon-contacto">
                 <i className="fa-solid fa-location-dot"></i>
               </div>
-              <h3 className="info-title-contacto">Vía Argentina 57, 07200, Felanitx, Baleares</h3>
+              <h3 className="info-title-contacto">{t('contact.addressText')}</h3>
               <p className="info-subtitle-contacto"></p>
             </div>
           </div>
@@ -112,13 +114,13 @@ export default function Contact() {
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
-                title="Nuestra ubicación en Mallorca"
+                title={t('contact.mapTitle')}
               ></iframe>
             </div>
 
             <div className="form-wrapper-contacto">
-              <h2 className="form-title-contacto">Contáctanos</h2>
-              <p className="form-subtitle-contacto">Envíanos tus datos en el siguiente formulario y contactaremos contigo lo antes posible.</p>
+              <h2 className="form-title-contacto">{t('contact.title')}</h2>
+              <p className="form-subtitle-contacto">{t('contact.subtitle')}</p>
 
               {formStatus.success && (
                 <div className="form-success-message">
@@ -142,7 +144,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     className="form-input-contacto" 
-                    placeholder="Nombre o Empresa" 
+                    placeholder={t('contact.placeholders.name')} 
                     required 
                   />
                 </div>
@@ -154,7 +156,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     className="form-input-contacto" 
-                    placeholder="Email" 
+                    placeholder={t('contact.placeholders.email')} 
                     required 
                   />
                 </div>
@@ -166,7 +168,7 @@ export default function Contact() {
                     value={formData.phone}
                     onChange={handleChange}
                     className="form-input-contacto" 
-                    placeholder="Teléfono" 
+                    placeholder={t('contact.placeholders.phone')} 
                   />
                 </div>
 
@@ -176,7 +178,7 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     className="form-textarea-contacto" 
-                    placeholder="¿Qué necesitas?" 
+                    placeholder={t('contact.placeholders.message')} 
                     rows="4" 
                     required
                   ></textarea>
@@ -191,7 +193,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required 
                   />
-                  <label htmlFor="privacy">Acepto la política de privacidad de este sitio web.</label>
+                  <label htmlFor="privacy">{t('contact.privacyCheck')}</label>
                 </div>
 
                 <button 
@@ -199,7 +201,7 @@ export default function Contact() {
                   className="submit-button-contacto"
                   disabled={formStatus.submitting}
                 >
-                  {formStatus.submitting ? 'Enviando...' : 'Enviar'}
+                  {formStatus.submitting ? t('contact.sending') : t('contact.submit')}
                 </button>
               </form>
             </div>

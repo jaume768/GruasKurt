@@ -2,14 +2,17 @@ import React from 'react';
 import './css/Services.css';
 import ReacSection from './ReacSection';
 import ContactSection from './ContactSection';
+import { useTranslation } from 'react-i18next';
 
 export default function Services() {
+  const { t } = useTranslation();
+  
   return (
     <main className="services">
       <section className="services-hero">
         <div className="services-hero-content">
-          <h1>Servicios que ofrecemos</h1>
-          <p>Brindamos asistencia vial y auxilio profesional en carretera en Mallorca</p>
+          <h1>{t('services.title')}</h1>
+          <p>{t('services.subtitle')}</p>
         </div>
       </section>
 
@@ -19,20 +22,20 @@ export default function Services() {
           <div className="service-item">
             <div className="service-content">
               <div className="service-text">
-                <h2>Auxilio en carretera</h2>
+                <h2>{t('services.roadAssistance.title')}</h2>
                 <p>
-                  Proporcionamos asistencia en carretera, reparando el vehículo en el lugar o remolcándolo mediante cualquiera de nuestros medios disponibles:
+                  {t('services.roadAssistance.description')}
                 </p>
                 <ul className="service-features-specific">
-                  <li><span className="dot"></span> Taller móvil</li>
-                  <li><span className="dot"></span> Grúas</li>
-                  <li><span className="dot"></span> Plataformas especializadas</li>
+                  <li><span className="dot"></span> {t('services.roadAssistance.feature1')}</li>
+                  <li><span className="dot"></span> {t('services.roadAssistance.feature2')}</li>
+                  <li><span className="dot"></span> {t('services.roadAssistance.feature3')}</li>
                 </ul>
-                <a href="#contact" className="contact-button">Contáctanos</a>
+                <a href="#contact" className="contact-button">{t('common.contactUs')}</a>
               </div>
             </div>
             <div className="service-image-specific">
-              <img src="/servicio-asistencia.png" alt="Auxilio en carretera" />
+              <img src="/servicio-asistencia.png" alt={t('services.roadAssistance.imageAlt')} />
             </div>
           </div>
 
@@ -40,15 +43,15 @@ export default function Services() {
           <div className="service-item reverse">
             <div className="service-content">
               <div className="service-text">
-                <h2>Traslados</h2>
+                <h2>{t('services.transfers.title')}</h2>
                 <p>
-                  Movilizamos grandes flotas en nuestras plataformas de forma segura, llevándolas a cualquier destino sin importar dónde te encuentres.
+                  {t('services.transfers.description')}
                 </p>
-                <a href="#contact" className="contact-button">Contáctanos</a>
+                <a href="#contact" className="contact-button">{t('common.contactUs')}</a>
               </div>
             </div>
             <div className="service-image-specific">
-              <img src="/servicio-traslado.png" alt="Servicio de traslados" />
+              <img src="/servicio-traslado.png" alt={t('services.transfers.imageAlt')} />
             </div>
           </div>
 
@@ -56,15 +59,15 @@ export default function Services() {
           <div className="service-item">
             <div className="service-content">
               <div className="service-text">
-                <h2>Rescates</h2>
+                <h2>{t('services.rescues.title')}</h2>
                 <p>
-                  Contamos con amplia experiencia en rescates, atendiendo incidentes y accidentes de vehículos o motos, ya sea en desfiladeros o en situaciones de encierro.
+                  {t('services.rescues.description')}
                 </p>
-                <a href="#contact" className="contact-button">Contáctanos</a>
+                <a href="#contact" className="contact-button">{t('common.contactUs')}</a>
               </div>
             </div>
             <div className="service-image-specific">
-              <img src="/servicio-ris.png" alt="Servicio de rescates" />
+              <img src="/servicio-ris.png" alt={t('services.rescues.imageAlt')} />
             </div>
           </div>
 
@@ -72,15 +75,15 @@ export default function Services() {
           <div className="service-item reverse">
             <div className="service-content">
               <div className="service-text">
-                <h2>RIS</h2>
+                <h2>{t('services.RIS.title')}</h2>
                 <p>
-                  Para cualquier inconveniente, contamos con los recursos y herramientas necesarios para reparar tu vehículo en el mismo lugar.
+                  {t('services.RIS.description')}
                 </p>
-                <a href="#contact" className="contact-button">Contáctanos</a>
+                <a href="#contact" className="contact-button">{t('common.contactUs')}</a>
               </div>
             </div>
             <div className="service-image-specific">
-              <img src="/professionals-image.jpeg" alt="Servicio de RIS" />
+              <img src="/professionals-image.jpeg" alt={t('services.RIS.imageAlt')} />
             </div>
           </div>
         </div>

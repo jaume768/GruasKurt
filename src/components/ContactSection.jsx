@@ -1,8 +1,10 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './css/ContactSection.css';
+import { useTranslation } from 'react-i18next';
 
 export default function ContactSection() {
+  const { t } = useTranslation();
   const form = useRef();
   const [formData, setFormData] = useState({
     name: '',
@@ -46,7 +48,7 @@ export default function ContactSection() {
         console.log('CORRECTO!', response.status, response.text);
         setFormStatus({
           submitting: false,
-          success: 'Tu mensaje ha sido enviado correctamente. Nos pondremos en contacto contigo pronto.',
+          success: t('contactSection.messages.success'),
           error: null
         });
         setFormData({
@@ -62,7 +64,7 @@ export default function ContactSection() {
         setFormStatus({
           submitting: false,
           success: null,
-          error: 'Ha ocurrido un error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde.'
+          error: t('contactSection.messages.error')
         });
       });
   };
@@ -71,18 +73,17 @@ export default function ContactSection() {
     <section className="contact-section" id="contact">
       <div className="contact-container">
         <div className="contact-info">
-          <h2>Contacta con nosotros</h2>
+          <h2>{t('contactSection.title')}</h2>
           <p>
-            Ya seas un particular, empresa o compañía y necesitas algunos
-            de nuestros, no dudes en contactarnos sin compromiso.
+            {t('contactSection.description')}
           </p>
           <div className="contact-image">
-            <img src="/contact-image.png" alt="Contact" />
+            <img src="/contact-image.png" alt={t('contactSection.imageAlt')} />
           </div>
         </div>
 
         <div className="contact-form-container">
-          <h3>Envíanos tus datos</h3>
+          <h3>{t('contactSection.formTitle')}</h3>
           
           {formStatus.success && (
             <div className="form-success-message">
@@ -101,7 +102,7 @@ export default function ContactSection() {
               <input
                 type="text"
                 name="name"
-                placeholder="Nombre o Empresa"
+                placeholder={t('contact.placeholders.name')}
                 value={formData.name}
                 onChange={handleChange}
                 required
@@ -112,7 +113,7 @@ export default function ContactSection() {
               <input
                 type="email"
                 name="email"
-                placeholder="Email"
+                placeholder={t('contact.placeholders.email')}
                 value={formData.email}
                 onChange={handleChange}
                 required
@@ -123,7 +124,7 @@ export default function ContactSection() {
               <input
                 type="tel"
                 name="phone"
-                placeholder="Teléfono"
+                placeholder={t('contact.placeholders.phone')}
                 value={formData.phone}
                 onChange={handleChange}
                 required
@@ -133,7 +134,7 @@ export default function ContactSection() {
             <div className="form-group">
               <textarea
                 name="message"
-                placeholder="¿Qué necesitas?"
+                placeholder={t('contact.placeholders.message')}
                 value={formData.message}
                 onChange={handleChange}
                 rows="4"
@@ -151,7 +152,7 @@ export default function ContactSection() {
                 required
               />
               <label htmlFor="policy">
-                Acepto la política de privacidad de este sitio web.
+                {t('contact.privacyCheck')}
               </label>
             </div>
 
@@ -160,7 +161,7 @@ export default function ContactSection() {
               className="btn-submit"
               disabled={formStatus.submitting}
             >
-              {formStatus.submitting ? 'Enviando...' : 'Enviar'}
+              {formStatus.submitting ? t('contact.sending') : t('contact.submit')}
             </button>
           </form>
         </div>

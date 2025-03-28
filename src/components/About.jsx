@@ -2,15 +2,18 @@ import React from 'react';
 import './css/About.css';
 import Partners from './Partners';
 import ReacSection from './ReacSection';
+import { useTranslation } from 'react-i18next';
 
 export default function About() {
+  const { t } = useTranslation();
+
   return (
     <main className="about">
       <section className="about-hero">
         <div className="about-hero-content">
-          <h1>Quiénes somos</h1>
+          <h1>{t('about.title')}</h1>
           <p>
-            Somos <strong>Grúas Perello</strong>, una compañía especializada en asistencia vial en las Islas Baleares.
+            {t('about.description')}
           </p>
 
           <div className="about-features">
@@ -19,9 +22,9 @@ export default function About() {
                 <i className="fas fa-chart-line"></i>
               </div>
               <div className="feature-content">
-                <h3>Años de experiencia</h3>
+                <h3>{t('about.feature1Title')}</h3>
                 <p>
-                  Con más de 30 años de trayectoria en el sector de la movilidad y el auxilio en carretera.
+                  {t('about.feature1Description')}
                 </p>
               </div>
             </div>
@@ -31,9 +34,9 @@ export default function About() {
                 <i className="fas fa-clock"></i>
               </div>
               <div className="feature-content">
-                <h3>Atención continua</h3>
+                <h3>{t('about.feature2Title')}</h3>
                 <p>
-                  Brindamos servicio en Mallorca a toda hora, los 365 días del año.
+                  {t('about.feature2Description')}
                 </p>
               </div>
             </div>
@@ -43,9 +46,9 @@ export default function About() {
                 <i className="fas fa-map-marker-alt"></i>
               </div>
               <div className="feature-content">
-                <h3>Mallorca, nuestra casa</h3>
+                <h3>{t('about.feature3Title')}</h3>
                 <p>
-                  Cubrimos toda la isla de Mallorca, actuando en cada rincón.
+                  {t('about.feature3Description')}
                 </p>
               </div>
             </div>
@@ -56,13 +59,13 @@ export default function About() {
       <section className="about-efficiency">
         <div className="about-efficiency-content">
           <div className="efficiency-text">
-            <h2>Ágiles</h2>
+            <h2>{t('about.efficiency.title')}</h2>
             <p>
-              Organizamos nuestros servicios de forma óptima, gracias a nuestro equipo de profesionales comprometidos.
+              {t('about.efficiency.description')}
             </p>
           </div>
           <div className="efficiency-image">
-            <img src="/efficiency-image.png" alt="Expertos en acción" />
+            <img src="/efficiency-image.png" alt={t('about.efficiency.imageAlt')} />
           </div>
         </div>
       </section>
@@ -70,12 +73,12 @@ export default function About() {
       <section className="about-professionals">
         <div className="about-professionals-content">
           <div className="professionals-image">
-            <img src="/professionals-image.jpeg" alt="Equipo de expertos" />
+            <img src="/professionals-image.jpeg" alt={t('about.professionals.imageAlt')} />
           </div>
           <div className="professionals-text">
-            <h2>Especialistas</h2>
+            <h2>{t('about.professionals.title')}</h2>
             <p>
-              Nuestro equipo de gruistas y especialistas se destaca por su rapidez y eficacia en la gestión de cada servicio.
+              {t('about.professionals.description')}
             </p>
           </div>
         </div>

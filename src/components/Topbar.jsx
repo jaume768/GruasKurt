@@ -1,7 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './css/Topbar.css';
 
 export default function Topbar() {
+  const { t } = useTranslation();
+  
   return (
     <div className="topbar">
       <div className="container-topbar">
@@ -10,7 +13,7 @@ export default function Topbar() {
           <span><i className="fas fa-envelope"></i> Gruasperello@gmail.com </span>
         </div>
         <div className="reac-info">
-          <span>REAC - Red de Empresas de Auxilio en Carretera</span>
+          <span>{t('topbar.reacInfo')}</span>
         </div>
       </div>
     </div>
