@@ -1,3 +1,4 @@
+/* Header Styles */
 header {
   background-color: white;
   padding: 0.4rem;
@@ -93,16 +94,7 @@ nav a.active {
   font-weight: 700;
 }
 
-/* Language selector styles */
-.desktop-language-selector {
-  position: relative;
-  z-index: 100;
-}
-
-.mobile-language-selector {
-  display: none;
-}
-
+/* Language dropdown styles */
 .language-dropdown {
   position: relative;
 }
@@ -141,7 +133,7 @@ nav a.active {
   z-index: 101;
 }
 
-.language-dropdown-content button {
+.language-dropdown-content .button-language {
   width: 100%;
   padding: 0.75rem 1rem;
   text-align: left;
@@ -154,11 +146,11 @@ nav a.active {
   font-size: 0.95rem;
 }
 
-.language-dropdown-content button:last-child {
+.language-dropdown-content .button-language:last-child {
   border-bottom: none;
 }
 
-.language-dropdown-content button:hover {
+.language-dropdown-content .button-language:hover {
   background-color: #f5f5f5;
   color: #ffed03;
 }
@@ -167,57 +159,6 @@ nav a.active {
 @media (max-width: 992px) {
   .mobile-menu-toggle {
     display: block;
-  }
-
-  .desktop-language-selector {
-    display: none;
-  }
-
-  .mobile-language-selector {
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 15px;
-  }
-
-  .mobile-language-selector .language-dropdown-btn {
-    width: 100%;
-    justify-content: flex-end;
-    border: none;
-    padding: 0.5rem 0;
-    font-weight: 500;
-    color: #333;
-    font-size: 1rem;
-  }
-  
-  .mobile-language-selector .language-dropdown-content {
-    position: relative;
-    width: 100%;
-    box-shadow: none;
-    margin-top: 10px;
-    border: 1px solid #f0f0f0;
-    background-color: #f9f9f9;
-    border-radius: 4px;
-  }
-  
-  .mobile-language-selector .language-dropdown-content button {
-    padding: 12px 15px;
-    text-align: right;
-    font-size: 1rem;
-    background-color: transparent;
-  }
-
-  .mobile-language-selector .language-dropdown-content button:hover {
-    background-color: #f0f0f0;
-  }
-
-  .menu-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 4;
   }
 
   nav {
@@ -250,5 +191,15 @@ nav a.active {
     display: block;
     padding: 0.5rem 0;
     font-size: 1.1rem;
+  }
+
+  .menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 4;
   }
 }
