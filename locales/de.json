@@ -1,0 +1,477 @@
+{
+    "about": {
+        "title": "Wer wir sind",
+        "description": "Wir sind Grúas Perello, ein Unternehmen, das auf Pannenhilfe auf den Balearen spezialisiert ist.",
+        "feature1Title": "Jahre der Erfahrung",
+        "feature1Description": "Mit über 30 Jahren Erfahrung im Bereich Mobilität und Pannenhilfe.",
+        "feature2Title": "Rund-um-die-Uhr Betreuung",
+        "feature2Description": "Wir bieten auf Mallorca rund um die Uhr an, 365 Tage im Jahr.",
+        "feature3Title": "Mallorca, unser Zuhause",
+        "feature3Description": "Wir decken die ganze Insel Mallorca ab und sind in jeder Ecke aktiv.",
+        "efficiency": {
+            "title": "Flott",
+            "description": "Wir organisieren unsere Dienstleistungen optimal, dank unseres engagierten Teams von Fachleuten.",
+            "imageAlt": "Experten in Aktion"
+        },
+        "professionals": {
+            "title": "Spezialisten",
+            "description": "Unser Team von Abschleppfahrern und Spezialisten zeichnet sich durch Schnelligkeit und Effizienz in der Serviceabwicklung aus.",
+            "imageAlt": "Expertenteam"
+        }
+    },
+    "contact": {
+        "title": "Kontakt",
+        "subtitle": "Senden Sie uns Ihre Daten über das folgende Formular und wir werden Sie so bald wie möglich kontaktieren.",
+        "placeholders": {
+            "name": "Name oder Firma",
+            "email": "E-Mail",
+            "phone": "Telefon",
+            "message": "Was benötigen Sie?"
+        },
+        "submit": "Senden",
+        "sending": "Sende...",
+        "emailAddress": "info@gruasmallorca.es",
+        "emailSubtitle": "Schreiben Sie uns unverbindlich",
+        "phoneNumber": "971 43 18 40",
+        "phoneSubtitle": "Rufen Sie uns an, wenn Sie etwas benötigen!",
+        "addressText": "Carrera Herba Sana, 4, 07110, Baleares",
+        "privacyCheck": "Ich habe die Datenschutzrichtlinie gelesen und akzeptiere sie",
+        "mapTitle": "Unser Standort auf Mallorca",
+        "messages": {
+            "success": "Ihre Nachricht wurde erfolgreich gesendet. Wir werden uns bald mit Ihnen in Verbindung setzen.",
+            "error": "Beim Senden der Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+        }
+    },
+    "contactSection": {
+        "title": "Kontaktieren Sie uns",
+        "description": "Egal ob Privatperson, Firma oder Unternehmen – wenn Sie einen unserer Dienste benötigen, zögern Sie nicht, uns unverbindlich zu kontaktieren.",
+        "imageAlt": "Kontaktbild",
+        "formTitle": "Senden Sie uns Ihre Daten",
+        "messages": {
+            "success": "Ihre Nachricht wurde erfolgreich gesendet. Wir werden uns bald mit Ihnen in Verbindung setzen.",
+            "error": "Beim Senden der Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+        }
+    },
+    "header": {
+        "home": "Startseite",
+        "about": "Über uns",
+        "services": "Dienstleistungen",
+        "technology": "Technologie",
+        "contact": "Kontakt",
+        "coverage": "Abdeckung"
+    },
+    "footer": {
+        "rights": "2025 Grúas Mallorca - Alle Rechte vorbehalten",
+        "privacy": "Datenschutzrichtlinie",
+        "terms": "Geschäftsbedingungen",
+        "cookies": "Cookie-Richtlinie",
+        "description": "Pannenhilfe. Abschleppdienst auf Mallorca.",
+        "memberTitle": "Mitglieder von REAC",
+        "memberDescription": "Wir gehören zum größten Netzwerk von Pannenhilfsunternehmen",
+        "developedBy": "Entwickelt von",
+        "legal": "Impressum"
+    },
+    "technology": {
+        "mainTitle": "Wir arbeiten mit modernster Technologie",
+        "description": "Unser Prozess wird mit EFI Asistencia durchgeführt, einer Managementsoftware für Pannenhilfsdienste und Flottenmanagement.",
+        "imageAlt": "Lkw-Transport",
+        "workflow": {
+            "step1Title": "Vorfall",
+            "step1": "Der Kunde kontaktiert seine übliche Versicherung.",
+            "step2Title": "Benachrichtigung",
+            "step2": "Die assoziierte Versicherung weist uns den Service über EFI Asistencia zu.",
+            "step3Title": "Standort",
+            "step3": "Sobald zugewiesen, begibt sich einer unserer Operatoren zum Unfallort.",
+            "step4Title": "Maßnahme",
+            "step4": "Wir schicken das Fahrzeug zum vom Kunden gewünschten Ziel."
+        },
+        "advantages": {
+            "title": "Technologische Vorteile",
+            "reliability": "Zuverlässigkeit",
+            "reliabilityText": "Maximale Sicherheit für unsere Daten und Informationen zu unseren Dienstleistungen.",
+            "efficiency": "Effizienz",
+            "efficiencyText": "Optimales Management unserer Flotte und Dienstleistungen, zugänglich von jedem Gerät.",
+            "professionalism": "Professionalität",
+            "professionalismText": "Ein organisiertes und professionelles Auftreten, das sich in der Qualität unseres Services widerspiegelt.",
+            "speed": "Schnelligkeit",
+            "speedText": "Sofortige Kommunikation mit unseren Hauptkunden und automatische Zuweisung von Dienstleistungen."
+        }
+    },
+    "services": {
+        "title": "Unsere Dienstleistungen",
+        "subtitle": "Wir bieten Pannenhilfe und professionelle Pannenunterstützung auf Mallorca",
+        "roadAssistance": {
+            "title": "Pannenhilfe",
+            "description": "Wir bieten Pannenhilfe, reparieren das Fahrzeug vor Ort oder schleppen es mit einem unserer verfügbaren Mittel ab:",
+            "feature1": "Mobiles Werkstatt",
+            "feature2": "Abschleppwagen",
+            "feature3": "Spezialisierte Plattformen",
+            "imageAlt": "Pannenhilfe"
+        },
+        "transfers": {
+            "title": "Transporte",
+            "description": "Wir transportieren große Fahrzeugflotten sicher mit unseren Plattformen, an jedes Ziel, egal wo Sie sind.",
+            "imageAlt": "Transportservice"
+        },
+        "rescues": {
+            "title": "Rettungsdienste",
+            "description": "Wir haben umfassende Erfahrung in Rettungseinsätzen, betreuen Unfälle und Pannen von Fahrzeugen oder Motorrädern, sei es in Schluchten oder in engen Situationen.",
+            "imageAlt": "Rettungsdienst"
+        },
+        "RIS": {
+            "title": "RIS",
+            "description": "Bei jeglichen Problemen haben wir die nötigen Ressourcen und Werkzeuge, um Ihr Fahrzeug vor Ort zu reparieren.",
+            "imageAlt": "RIS-Service"
+        }
+    },
+    "fleet": {
+        "title": "Voll ausgestattete Flotte",
+        "description": "Wir verfügen über alle Arten von Mitteln für jede angebotene Dienstleistung",
+        "imageAlt": "Abschleppwagen von Mallorca",
+        "viewFullFleet": "Komplette Flotte anzeigen",
+        "features": {
+            "item1": "Plattform",
+            "item2": "Patr.",
+            "item3": "Abschleppplat.",
+            "item4": "Lkw",
+            "item5": "Werkstattfz.",
+            "item6": "Spezialplat.",
+            "item7": "Taxis",
+            "item8": "Park-AW"
+        }
+    },
+    "home": {
+        "hero": {
+            "title": "Grúas Perello",
+            "subtitle": "Pannenhilfe und Abschleppdienst",
+            "cta": "Kontaktieren Sie uns",
+            "buttons": {
+                "aboutUs": "Über uns",
+                "services": "Unsere Dienstleistungen"
+            }
+        },
+        "featuredServices": {
+            "title": "Hervorgehobene Dienstleistungen",
+            "viewAll": "Alle anzeigen"
+        },
+        "testimonials": {
+            "title": "Was unsere Kunden sagen",
+            "client1": {
+                "name": "María García",
+                "text": "Ausgezeichneter Service, schnell und professionell. Sie haben mir in weniger als 30 Minuten geholfen."
+            },
+            "client2": {
+                "name": "Juan Pérez",
+                "text": "Sehr guter telefonischer Service und der Abschleppdienst war effizient. Sehr zu empfehlen."
+            },
+            "client3": {
+                "name": "Laura Martínez",
+                "text": "Qualitativ hochwertige Betreuung und faire Preise. Ich werde auf jeden Fall wieder auf sie zurückkommen."
+            }
+        }
+    },
+    "common": {
+        "goBack": "Zurück",
+        "callNow": "Jetzt anrufen",
+        "chooseLanguage": "Sprache wählen",
+        "contactUs": "Kontaktieren Sie uns",
+        "learnMore": "Mehr erfahren"
+    },
+    "cookies": {
+        "title": "Cookie-Richtlinie",
+        "description": "Wir verwenden eigene und Drittanbieter-Cookies, um unsere Dienstleistungen zu verbessern und Ihnen Werbung anzuzeigen, die auf Ihren Präferenzen basiert, indem wir Ihr Surfverhalten analysieren.",
+        "accept": "Akzeptieren",
+        "reject": "Ablehnen"
+    },
+    "cookiesPolicy": {
+        "title": "Cookie-Richtlinie",
+        "infoTitle": "INFORMATIONEN ÜBER COOKIES",
+        "infoText": "Aufgrund der in Kraft getretenen Änderung des \"Gesetzes über Dienste der Informationsgesellschaft\" (LSSICE), festgelegt durch das Königliche Dekret 13/2012, ist es verpflichtend, die ausdrückliche Zustimmung des Nutzers für alle Websites einzuholen, die optionale Cookies verwenden, bevor dieser sie besucht.",
+        "whatAreTitle": "WAS SIND COOKIES?",
+        "whatAreText1": "Cookies und andere ähnliche Technologien wie Local Shared Objects, Flash-Cookies oder Pixel sind Werkzeuge, die von Webservern verwendet werden, um Informationen über ihre Besucher zu speichern und abzurufen sowie einen ordnungsgemäßen Betrieb der Website zu gewährleisten.",
+        "whatAreText2": "Durch den Einsatz dieser Mittel kann der Webserver sich einige Daten des Nutzers merken, wie z. B. seine Präferenzen zur Anzeige der Seiten, Name und Passwort, Produkte, an denen er besonders interessiert ist, etc.",
+        "regulationTitle": "COOKIES, DIE VON DER REGULIERUNG BETROFFEN SIND UND AUSGENOMMENE COOKIES",
+        "regulationText": "Gemäß der EU-Richtlinie benötigen Analyse-, Werbe- und Affiliate-Cookies die informierte Zustimmung des Nutzers, während technische Cookies und solche, die für den Betrieb der Website oder die explizit vom Nutzer angeforderten Dienstleistungen erforderlich sind, ausgenommen sind.",
+        "typesTitle": "WELCHE ARTEN VON COOKIES GIBT ES?",
+        "typesIntro": "Bezüglich der Cookie-Arten gibt es fünf Hauptgruppen:",
+        "typesList": {
+            "item1": "Analyse-Cookies: Sie sammeln Informationen über die Nutzung der Website.",
+            "item2": "Soziale Cookies: Diese sind für externe soziale Netzwerke erforderlich.",
+            "item3": "Affiliate-Cookies: Sie ermöglichen die Verfolgung von Besuchen von anderen Websites, mit denen die Website eine Affiliate-Vereinbarung hat.",
+            "item4": "Werbe- und Verhaltens-Cookies: Sie sammeln Informationen über die Vorlieben und persönlichen Entscheidungen des Nutzers (Retargeting).",
+            "item5": "Technische und funktionale Cookies: Diese sind strikt erforderlich für die Nutzung der Website und die Bereitstellung des vertraglich vereinbarten Dienstes."
+        },
+        "usedTitle": "COOKIES, DIE AUF DIESER WEBSITE VERWENDET WERDEN",
+        "usedIntro": "Nennen Sie die Cookie-Namen, Typ, Eigentümer, Funktion und Ablauf, zum Beispiel:",
+        "usedList": {
+            "item1": "PHPSESSID: Technischer und unbedingt notwendiger Cookie, der die Sitzungs-ID enthält. Wird beim Schließen des Browsers gelöscht.",
+            "item2": "_lang: Technischer und unbedingt notwendiger Cookie, der die Sprache der Sitzung enthält. Wird beim Schließen des Browsers gelöscht.",
+            "item3": "ac_cookies: Technischer und unbedingt notwendiger Cookie, der den Wert enthält, ob die Installation von Cookies akzeptiert wurde. Läuft 1 Jahr nach der letzten Aktualisierung ab."
+        },
+        "googleMapsTitle": "GOOGLE MAPS SERVICE",
+        "googleMapsText1": "Google Maps ermöglicht die Einbettung von Karten auf Websites Dritter, wie dieser hier. Die von Google Maps verwendeten Cookies sind: SID, SAPISID, APISID, SSID, HSID, NID, PREF.",
+        "googleMapsText2": "Sie dienen dazu, verschiedene eindeutige Identifikatoren festzulegen, außer dem Cookie PREF, der verwendet wird, um die Zoompräferenzen der Karten anzuzeigen.",
+        "googleMapsText3": "Der Cookie PREF hat eine Laufzeit von einem Jahr. Die Cookies SAPISID, APISID, SSID, HSID, SID haben eine Laufzeit von zwei Jahren. Die übrigen sind Sitzungs-Cookies oder haben eine kurze Verweildauer.",
+        "googlePrivacyInfo": "Wenn Sie weitere Informationen wünschen, besuchen Sie den folgenden Link:",
+        "googleCookiesInfo": "Für weitere Informationen über die von Google Maps verwendeten Cookies, besuchen Sie bitte den folgenden Link:",
+        "revokeTitle": "WIDERRUF DER ZUSTIMMUNG ZUR COOKIE-INSTALLATION",
+        "deleteTitle": "SO LÖSCHEN SIE COOKIES AUS DEM BROWSER",
+        "chrome": {
+            "step1": "Wählen Sie das Symbol für Tools",
+            "step2": "Klicken Sie auf Einstellungen.",
+            "step3": "Klicken Sie auf Erweiterte Optionen anzeigen.",
+            "step4": "Klicken Sie im Bereich \"Datenschutz\" auf Inhalts-Einstellungen.",
+            "step5": "Cookies löschen: Klicken Sie auf Alle Cookies und Website-Daten...",
+            "step6": "Verhindern Sie, dass Cookies gespeichert werden.",
+            "step7": "Klicken Sie auf Browserdaten löschen (Cache leeren).",
+            "step8": "Schließen und starten Sie den Browser neu."
+        },
+        "chromeMoreInfo": "Für weitere Informationen über Chrome klicken Sie hier:",
+        "ieTitle": "Internet Explorer. Version 11",
+        "ie": {
+            "step1": "Wählen Sie Tools > Internetoptionen.",
+            "step2": "Klicken Sie auf den Reiter Allgemein.",
+            "step3": "Im Bereich \"Verlauf\" klicken Sie auf 'Verlauf beim Schließen löschen'.",
+            "step4": "Wählen Sie Dateien löschen.",
+            "step5": "Wählen Sie Cookies löschen.",
+            "step6": "Klicken Sie auf Löschen.",
+            "step7": "Klicken Sie auf OK.",
+            "step8": "Schließen und starten Sie den Browser neu."
+        },
+        "ieMoreInfo": "Für weitere Informationen über Internet Explorer klicken Sie hier:",
+        "firefoxTitle": "Firefox. Version 18",
+        "firefox": {
+            "step1": "Wählen Sie Firefox > Verlauf > Kürzlich besuchten Verlauf löschen.",
+            "step2": "Neben \"Details\" klicken Sie auf den Pfeil nach unten.",
+            "step3": "Wählen Sie die folgenden Kontrollkästchen: Cookies, Cache, aktive Logins",
+            "step4": "Wählen Sie im Dropdown-Menü 'Zeitraum zum Löschen' die Option 'Alles'.",
+            "step5": "Klicken Sie auf Jetzt löschen.",
+            "step6": "Schließen und starten Sie den Browser neu."
+        },
+        "firefoxPreferences": "Sie können Cookies einzeln in den Firefox-Einstellungen im Bereich Verlauf unter Tools > Optionen > Datenschutz akzeptieren oder ablehnen.",
+        "firefoxMoreInfo": "Für weitere Informationen über Mozilla Firefox klicken Sie hier:",
+        "safariTitle": "Safari Version 5.1",
+        "safari": {
+            "step1": "Wählen Sie das Safari-Symbol > Bearbeiten > Safari zurücksetzen.",
+            "step2": "Wählen Sie die folgenden Kontrollkästchen: Verlauf löschen, Alle Website-Daten löschen",
+            "step3": "Klicken Sie auf Zurücksetzen.",
+            "step4": "Schließen und starten Sie den Browser neu."
+        },
+        "safariMoreInfo": "Für weitere Informationen über Safari klicken Sie hier:",
+        "operaSteps": "Einstellungen > Erweitert > Cookies. Die Cookie-Optionen steuern, wie Opera sie handhabt und somit deren Akzeptanz oder Ablehnung.",
+        "operaMoreInfo": "Für weitere Informationen über Opera klicken Sie hier:",
+        "otherTitle": "Andere Browser",
+        "otherText": "Bitte konsultieren Sie die Dokumentation des von Ihnen installierten Browsers."
+    },
+    "coverage": {
+        "title": "Abdeckung",
+        "mapTitle": "Abdeckungskarte auf Mallorca",
+        "description": "Wir zeigen Ihnen alle Standorte, an denen wir tätig sind, um alle Arten von Dienstleistungen im Zusammenhang mit Pannenhilfe und Abschleppdiensten auf der gesamten Insel Mallorca zu verwalten:",
+        "locations": {
+            "location1": "Mallorca",
+            "location2": "Manacor",
+            "location3": "Sóller",
+            "location4": "Santa Ponsa",
+            "location5": "El Arenal",
+            "location6": "Cala d'Or",
+            "location7": "Campos",
+            "location8": "Cala Rajada"
+        }
+    },
+    "legal": {
+        "title": "Rechtlicher Hinweis",
+        "intro": "In Übereinstimmung mit der Informationspflicht gemäß Artikel 10 des Gesetzes 34/2002 vom 11. Juli über Dienste der Informationsgesellschaft und elektronischen Handel, finden Sie nachfolgend die folgenden Angaben: Das Unternehmen, das die Website besitzt (im Folgenden DAS UNTERNEHMEN), stellt Ihnen folgende Informationen zur Verfügung:",
+        "companyInfo": {
+            "identification": "Identifikation",
+            "name": "GRÚAS PERELLÓ, S.L.",
+            "cif": "CIF",
+            "address": "Adresse",
+            "addressValue": "Vía Argentina 57, 07200, Felanitx, Baleares",
+            "phone": "Telefon",
+            "phoneValue": "+34 971 58 12 60",
+            "email": "E-Mail",
+            "emailValue": "Gruasperello@gmail.com"
+        },
+        "usage": "Die Nutzung der Website verleiht Ihnen den Status eines Nutzers (im Folgenden \"Nutzer\") und impliziert die uneingeschränkte Akzeptanz aller Bestimmungen, die in diesem rechtlichen Hinweis in der von DAS UNTERNEHMEN veröffentlichten Version enthalten sind, zum Zeitpunkt des Zugriffs des Nutzers. DAS UNTERNEHMEN behält sich das Recht vor, die Darstellung und Konfiguration der Inhalte und Dienstleistungen der Website sowie die für deren Nutzung erforderlichen Bedingungen jederzeit und ohne vorherige Ankündigung einseitig zu ändern, wenn dies zu einer besseren Leistung führt.",
+        "copyright": "Der Inhalt dieser Website ist durch das Urheberrecht geschützt.",
+        "properUsage": "Diese Inhalte müssen vom Nutzer korrekt und rechtmäßig verwendet werden, insbesondere verpflichtet er sich, diese Inhalte sorgfältig, korrekt und rechtmäßig zu verwenden.",
+        "prohibitedUse1": "Die Inhalte dürfen nicht in einer Weise verwendet werden, die gegen das Gesetz, die Moral oder die in der Öffentlichkeit akzeptierten guten Sitten verstößt.",
+        "prohibitedUse2": "Es ist untersagt, jegliche Art von Daten zu übertragen, die Sie auf dieser Website oder auf Websites von Drittunternehmen, deren Links auf dieser Website zu finden sind, eingeben, welche die Eigentumsrechte Dritter in bedrohlicher Weise verletzen oder als Straftat gemäß dem geltenden Strafgesetzbuch angesehen werden könnten.",
+        "prohibitedUse3": "Die Vervielfältigung, Kopie, Verteilung, Transformation oder Änderung von Inhalten (Texte, Bilder, Stimmen oder Struktur) ist untersagt, es sei denn, Sie haben die ausdrückliche schriftliche Genehmigung des Rechteinhabers.",
+        "privacy": {
+            "title": "Datenschutzrichtlinie",
+            "intro": "Diese Richtlinie erklärt, wie wir Ihre personenbezogenen Daten verarbeiten und verarbeiten werden, insbesondere unter Anwendung der Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und zum freien Datenverkehr (DSGVO) sowie des organischen Gesetzes 3/2018 vom 5. Dezember über den Schutz personenbezogener Daten und Gewährleistung der digitalen Rechte (LOPDGD).",
+            "identification": {
+                "title": "Identifikation des Verantwortlichen",
+                "text": "In Übereinstimmung mit dem organischen Gesetz 3/2018 vom 5. Dezember zum Schutz personenbezogener Daten und Gewährleistung der digitalen Rechte und Artikel 13 der Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 über das Auskunftsrecht informieren wir Sie, dass durch die Annahme dieser Datenschutzrichtlinie der Nutzer (im Folgenden der \"Nutzer\") informiert wird und seine freie, informierte, spezifische und eindeutige Zustimmung zur Verarbeitung der personenbezogenen Daten erteilt, die über die Website unter der URL https://www.gruasperello.com zur Verfügung gestellt werden (im Folgenden die \"Website\") von:"
+            },
+            "company": {
+                "identification": "Identifikation",
+                "name": "GRÚAS PERELLÓ, S.L.",
+                "cif": "CIF",
+                "cifValue": "",
+                "address": "Adresse",
+                "addressValue": "Vía Argentina 57, 07200, Felanitx, Baleares",
+                "phone": "Telefon",
+                "phoneValue": "+34 971 58 12 60",
+                "email": "E-Mail",
+                "emailValue": "Gruasperello@gmail.com"
+            },
+            "dataOrigin": {
+                "title": "Herkunft und Kategorien der verarbeiteten Daten",
+                "text": "Die personenbezogenen Daten, die von GRÚAS PERELLÓ, S.L. verarbeitet werden, stammen direkt von ihren Kunden und Nutzern. Die verarbeiteten Datenkategorien sind:",
+                "list": {
+                    "item1": "Identifikationsdaten: Vorname, Nachname, DNI/NIF/CIF, Postanschrift, E-Mail-Adresse, Postleitzahl, Telefon.",
+                    "item2": "Benutzerkenncodes oder -schlüssel.",
+                    "item3": "Post- oder elektronische Adressen.",
+                    "item4": "Handelsinformationen.",
+                    "item5": "Wirtschaftliche und bankbezogene Daten."
+                },
+                "disclaimer": "Es werden keine besonders schützenswerten Daten verarbeitet. Die angeforderten personenbezogenen Daten sind obligatorisch, sodass die Verweigerung ihrer Bereitstellung die Erbringung der Dienstleistungen oder den Erwerb der vertraglich vereinbarten Waren unmöglich machen kann. Falls der Nutzer Daten Dritter bereitstellt, erklärt er, dass er deren Zustimmung besitzt und verpflichtet sich, diese Information gemäß dieser Klausel weiterzuleiten, wobei GRÚAS PERELLÓ, S.L. jegliche Verantwortung in diesem Zusammenhang ablehnt. Dennoch kann GRÚAS PERELLÓ, S.L. Überprüfungen durchführen, um diesen Umstand festzustellen, und die entsprechenden Sorgfaltsmaßnahmen gemäß den Datenschutzbestimmungen ergreifen."
+            },
+            "purpose": {
+                "title": "Zweck der Verarbeitung und Art der erhobenen Daten",
+                "registeredUsers": {
+                    "title": "Registrierte Nutzer",
+                    "text": "Die Informationen, die Sie uns im Registrierungsformular zur Verfügung stellen, werden zur Verwaltung der Nutzer der Website verwendet, damit Sie auf Ihr Profil, die Online-Plattform, Ihre Bestellungen zugreifen und Ihre Käufe tätigen können, ohne Ihre Identifikationsdaten erneut eingeben zu müssen. Vor der Bestellung müssen sich die Nutzer im Abschnitt \"Mein Konto\" registrieren, damit wir die Bestellung basierend auf den steuerlichen Daten des Kunden, wie Adresse, DNI oder Kontaktdaten, bearbeiten können."
+                },
+                "newsletter": {
+                    "title": "Newsletter-Abonnenten",
+                    "text": "In Fällen, in denen Sie uns Ihre Zustimmung gemäß Artikel 21 des Gesetzes über Dienste der Informationsgesellschaft erteilen, verwenden wir Ihre Identifikations- und Kontaktdaten, um Ihnen Informationen zu Nachrichten von Interesse sowie über unsere Produkte und Dienstleistungen zu senden."
+                }
+            },
+            "duration": {
+                "title": "Dauer der Datenverarbeitung",
+                "text": "GRÚAS PERELLÓ, S.L. wird die personenbezogenen Daten der Nutzer nur so lange aufbewahren, wie es für die Erfüllung der Zwecke, für die sie erhoben wurden, notwendig ist, solange der Nutzer die erteilten Zustimmungen nicht widerruft. Anschließend werden die Daten, sofern erforderlich, für die gesetzlich festgelegten Fristen oder für den gesetzlich festgelegten Zeitraum für etwaige daraus entstehende Maßnahmen gesperrt.",
+                "webClients": {
+                    "title": "Web-Kunden",
+                    "text": "Die Informationen werden so lange aufbewahrt, wie es zur Abwicklung der Lieferung und Abrechnung der erworbenen Produkte erforderlich ist; danach werden die Daten zur Nachverfolgung der kommerziellen Aktivitäten während der gesetzlichen Verjährungsfrist aufbewahrt und nach Ablauf dieser Frist gelöscht."
+                },
+                "registeredUsers": {
+                    "title": "Registrierte Nutzer",
+                    "text": "Die Informationen der registrierten Nutzer werden unbegrenzt aufbewahrt, es sei denn, der Nutzer beantragt die Abmeldung als registrierter Nutzer."
+                }
+            },
+            "legitimation": {
+                "title": "Rechtsgrundlage der Datenverarbeitung",
+                "text1": "Die Rechtsgrundlage für die Verarbeitung der Nutzerdaten durch GRÚAS PERELLÓ, S.L. zur Registrierung und Aufnahme des Nutzers in die Plattform beruht auf der Einwilligung der betroffenen Person, die für den konkreten Fall eingeholt wurde.",
+                "text2": "Die Verwaltung der Vertragsabwicklung von Produkten oder Dienstleistungen, Zahlung, Rechnungsstellung und Versand ist durch die Durchführung des Vertrags legitimiert.",
+                "text3": "Darüber hinaus beruht die Verarbeitung der Daten zum Versand von E-Mail-Newslettern mit Angeboten, Promotionen und Nachrichten im Zusammenhang mit unseren Dienstleistungen, kommerziellen und/oder Werbeinformationen auch auf dem berechtigten Interesse von GRÚAS PERELLÓ, S.L. zur Durchführung dieser Verarbeitungen gemäß den geltenden Vorschriften.",
+                "text4": "Die für die genannten Zwecke eingeholten Zustimmungen sind unabhängig, sodass der Nutzer eine oder mehrere davon widerrufen kann, ohne dass dies die übrigen beeinträchtigt.",
+                "text5": "Ebenso kann die Information des Nutzers zur Erfüllung der unterschiedlichen gesetzlichen Verpflichtungen von GRÚAS PERELLÓ, S.L. verwendet werden."
+            },
+            "decisions": {
+                "title": "Entscheidungen",
+                "subtitle": "Automatisierte Entscheidungen, Profile und angewandte Logik:",
+                "text": "Das Unternehmen wird KEINE automatisierten Entscheidungen, Profile oder Logik basierend auf Ihren Daten vornehmen."
+            },
+            "recipients": {
+                "title": "Empfänger der Daten und internationale Übermittlungen",
+                "question": "An welche Empfänger werden Ihre Daten weitergegeben?",
+                "list": {
+                    "item1": "An Banken und Finanzinstitute zur Bezahlung der angebotenen Dienstleistungen.",
+                    "item2": "An die Verbraucher- und Nutzerzentrale im Falle einer Reklamation.",
+                    "item3": "An Hersteller, technischen Service und/oder Großhändler im Falle von Garantien oder Reparaturen. An diejenigen Transportunternehmen, die mit dem Versand der entsprechenden Bestellungen an die Kunden beauftragt sein könnten.",
+                    "item4": "In den gesetzlich festgelegten Fällen, wie etwa bei den Sicherheitskräften.",
+                    "item5": "An öffentliche Verwaltungen, an die GRÚAS PERELLÓ, S.L. Informationen im Rahmen der Erfüllung unserer gesetzlichen Verpflichtungen übermitteln muss."
+                }
+            },
+            "rights": {
+                "title": "Nutzerrechte",
+                "intro": "Die betroffene Person kann folgende Rechte ausüben:",
+                "list": {
+                    "item1": "Recht auf Auskunft über ihre personenbezogenen Daten.",
+                    "item2": "Recht auf Berichtigung oder Löschung.",
+                    "item3": "Recht auf Einschränkung der Verarbeitung.",
+                    "item4": "Recht auf Widerspruch gegen die Verarbeitung.",
+                    "item5": "Recht auf Datenübertragbarkeit.",
+                    "item6": "Recht auf Widerruf der erteilten Einwilligung."
+                },
+                "limitations": "Unter bestimmten Umständen können Betroffene die Einschränkung der Verarbeitung ihrer Daten verlangen, in welchem Fall diese nur zur Ausübung oder Verteidigung von Ansprüchen aufbewahrt werden. Unter bestimmten Umständen und aus Gründen, die mit ihrer persönlichen Situation zusammenhängen, können Betroffene der Verarbeitung ihrer Daten widersprechen. In diesem Fall wird das Unternehmen die Daten nicht mehr verarbeiten, außer aus zwingend legitimen Gründen oder zur Ausübung oder Verteidigung möglicher Ansprüche.",
+                "withdrawConsent": "Wenn eine Einwilligung für einen bestimmten Zweck erteilt wurde, hat der Nutzer das Recht, die erteilte Zustimmung jederzeit zu widerrufen, ohne dass dies die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung berührt.",
+                "exercise": "Die Ausübung der genannten Rechte ist persönlich, weshalb der Nutzer seine Identität nachweisen muss. Um die in der Gesetzgebung vorgesehenen Rechte auszuüben, kann sich der Nutzer an GRÚAS PERELLÓ, S.L. per E-Mail an: Gruasperello@gmail.com oder schriftlich an die Adresse Vía Argentina 57, 07200, Felanitx, Baleares wenden.",
+                "communicationTitle": "Die Mitteilung muss folgende Daten und Dokumente enthalten:",
+                "communicationList": {
+                    "item1": "Vor- und Nachname der betroffenen Person, beigefügt eine Kopie des DNI oder eines anderen gültigen Ausweisdokuments, das sie identifiziert, und gegebenenfalls der Person, die sie vertritt; die Verwendung einer elektronischen Signatur entbindet von der Vorlage dieser Dokumente.",
+                    "item2": "Angabe der Adresse der betroffenen Person und die genaue Bezeichnung des beantragten Rechts (das Recht, das ausgeübt werden soll). Falls Sie der Ansicht sind, dass Ihre Rechte bezüglich des Schutzes Ihrer personenbezogenen Daten verletzt wurden, insbesondere wenn Sie bei der Ausübung Ihrer Rechte keine zufriedenstellende Antwort erhalten haben, können Sie eine Beschwerde bei der zuständigen Datenschutzbehörde über deren Website www.agpd.es einreichen."
+                }
+            },
+            "security": {
+                "title": "Sicherheit",
+                "text": "GRÚAS PERELLÓ, S.L. erfüllt die Richtlinien der Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates vom 27. April 2016 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und zum freien Datenverkehr (DSGVO) sowie des organischen Gesetzes 3/2018 vom 5. Dezember über den Schutz personenbezogener Daten und Gewährleistung der digitalen Rechte (LOPDGD) und anderer jeweils geltender Vorschriften und sorgt für den ordnungsgemäßen Gebrauch und die Verarbeitung der personenbezogenen Daten des Nutzers."
+            },
+            "cookies": {
+                "title": "Cookies",
+                "text": "GRÚAS PERELLÓ, S.L. informiert Sie, dass auf seinen Systemen Cookies installiert sind. Cookies sind kleine Textdateien, die der Browser auf der Festplatte Ihres Computers speichert. Beim Zugriff auf die Website von GRÚAS PERELLÓ, S.L. kann der Server das Cookie erkennen und Informationen über Ihren letzten Besuch bereitstellen, um die Navigationserfahrung zu verbessern oder zu erleichtern. Weitere Informationen hierzu finden Sie in unserer Cookie-Richtlinie."
+            },
+            "modifications": {
+                "title": "Änderungen",
+                "text": "GRÚAS PERELLÓ, S.L. behält sich das Recht vor, diese Datenschutzrichtlinie gemäß den jeweils geltenden gesetzlichen Bestimmungen zu ändern. Daher wird empfohlen, dass der Nutzer diese Datenschutzrichtlinie regelmäßig überprüft, um über die Verarbeitung und den Schutz personenbezogener Daten sowie über die ihm zustehenden Rechte informiert zu bleiben."
+            },
+            "legislation": {
+                "title": "Anwendbares Recht",
+                "text": "Diese Richtlinie unterliegt und wird ausgelegt gemäß dem spanischen Recht, ebenso wie die Lösung von Streitigkeiten oder Unstimmigkeiten im Zusammenhang mit dieser Website. Die Nutzung der Dienstleistungen dieser Website setzt die ausdrückliche Akzeptanz der spanischen Gerichtsbarkeit voraus."
+            }
+        }
+    },
+    "statistics": {
+        "servicesPerYear": {
+            "title": "Dienstleistungen/Jahr",
+            "description": "Jedes Jahr übertreffen wir den Umsatz durch die erbrachten Dienstleistungen."
+        },
+        "satisfiedClients": {
+            "title": "Zufriedene Kunden",
+            "description": "Gute Bewertungen dank unserer Professionalität."
+        },
+        "yearsInSector": {
+            "title": "Jahre in der Branche",
+            "description": "Bewährte Erfahrung im Bereich der Pannenhilfe."
+        }
+    },
+    "serviceFeatures": {
+        "service24h": "24-Stunden-Service",
+        "efficient": "Effizient",
+        "experts": "Experten",
+        "islandInfo": {
+            "title": "Wir operieren auf der Insel Mallorca",
+            "description": "Wir bieten verschiedene Dienstleistungen wie Pannenhilfe, Garagenhilfe, Unfallrettung, Fahrzeugtransporte, Reifenwechsel, Schlüsselverlust, Notdienste, Starthilfekabelanschluss, Fahrzeugübergabe zwischen Händlern usw.",
+            "actionButton": "Einsatzgebiete anzeigen"
+        }
+    },
+    "serviceOverview": {
+        "title": "Unsere Dienstleistungen",
+        "subtitle": "Wir bieten alle Arten von Hilfe an.",
+        "roadside": {
+            "title": "Pannenhilfe",
+            "description": "Wir bieten Pannenhilfe und Abschleppdienste für jedes Fahrzeug sowie den Abschleppservice mit einem unserer Flottenfahrzeuge.",
+            "imageAlt": "Pannenhilfe"
+        },
+        "vehicleTransfer": {
+            "title": "Fahrzeugtransporte",
+            "description": "Wir transportieren große Fahrzeugflotten sicher mit unseren Plattformen zu jedem Ziel, egal wo Sie sich befinden.",
+            "imageAlt": "Fahrzeugtransport"
+        },
+        "ris": {
+            "title": "RIS",
+            "description": "Bei jedem Vorfall mit Ihrem Fahrzeug verfügen wir über alle notwendigen Mittel und Werkzeuge, um das Fahrzeug vor Ort zu reparieren.",
+            "imageAlt": "RIS"
+        }
+    },
+    "partners": {
+        "title": "Unsere Partnerunternehmen",
+        "subtitle": "Dies sind die verschiedenen Unternehmen, mit denen wir zusammenarbeiten",
+        "logoPrefix": "Logo von"
+    },
+    "reacSection": {
+        "logoAlt": "REAC-Logo",
+        "title": "Wir gehören zu REAC",
+        "description": "Das größte Netzwerk von Pannenhilfeunternehmen in Spanien"
+    },
+    "topbar": {
+        "reacInfo": "REAC - Netzwerk der Pannenhilfeunternehmen"
+    },
+    "whatsapp": {
+        "defaultMessage": "Hallo, ich würde gerne mehr Informationen über Ihre Dienstleistungen erhalten.",
+        "buttonTooltip": "Kontaktieren Sie uns per WhatsApp"
+    }
+}

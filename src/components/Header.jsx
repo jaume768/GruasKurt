@@ -42,6 +42,7 @@ export default function Header() {
             <div className="language-dropdown-content">
               <button className="button-language" onClick={() => changeLanguage('es')}>ES</button>
               <button className="button-language" onClick={() => changeLanguage('en')}>EN</button>
+              <button className="button-language" onClick={() => changeLanguage('de')}>DE</button>
             </div>
           )}
         </div>
