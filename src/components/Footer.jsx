@@ -11,7 +11,7 @@ export default function Footer() {
       <div className="container-footer">
         <div className="footer-content">
           <div className="footer-column">
-            <h3>Grúas Perello</h3>
+            <h3>Grúas Perelló</h3>
             <p>{t('footer.description')}</p>
             <div className="contact-item">
               <p><i className="fas fa-phone"></i>{t('contact.phoneNumber')}</p>

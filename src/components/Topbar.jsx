@@ -12,9 +12,6 @@ export default function Topbar() {
           <span><i className="fas fa-phone"></i> (+34) 971 58 12 60</span>
           <span><i className="fas fa-envelope"></i> Gruasperello@gmail.com </span>
         </div>
-        <div className="reac-info">
-          <span>{t('topbar.reacInfo')}</span>
-        </div>
       </div>
     </div>
   );

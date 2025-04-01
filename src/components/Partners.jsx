@@ -8,11 +8,8 @@ export default function Partners() {
   // Array of partner names to display
   const partners = [
     { name: 'RACC', logo: '/partners/logo-racc.png' },
-    { name: 'Carset', logo: '/partners/logo-carset.png' },
     { name: 'Allianz Partners', logo: '/partners/logo-allianz.png' },
-    { name: 'IMA Ibérica Asistencia', logo: '/partners/logo-ima.png' },
-    { name: 'AXA', logo: '/partners/logo-axa.png' },
-    { name: 'Mapfre', logo: '/partners/logo-mapfre.png' }
+    { name: 'AXA', logo: '/partners/logo-axa.png' }
   ];
 
   const carouselRef = useRef(null);

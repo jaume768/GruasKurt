@@ -1,7 +1,7 @@
 {
     "about": {
         "title": "About Us",
-        "description": "We are Grúas Perello, a company specialized in roadside assistance in the Balearic Islands.",
+        "description": "We are Grúas Perelló, a company specialized in roadside assistance in the Balearic Islands.",
         "feature1Title": "Years of Experience",
         "feature1Description": "With more than 30 years of experience in mobility and roadside assistance.",
         "feature2Title": "24/7 Service",
@@ -30,9 +30,9 @@
         },
         "submit": "Send",
         "sending": "Sending...",
-        "emailAddress": "info@gruasmallorca.es",
+        "emailAddress": "Gruasperello@gmail.com",
         "emailSubtitle": "Write to us without obligation",
-        "phoneNumber": "971 43 18 40",
+        "phoneNumber": "971 58 12 60",
         "phoneSubtitle": "Call us for whatever you need!",
         "addressText": "Carrera Herba Sana, 4, 07110, Balearic Islands",
         "privacyCheck": "I have read and accept the privacy policy",
@@ -61,7 +61,7 @@
         "coverage": "Coverage"
     },
     "footer": {
-        "rights": " 2025 Grúas Mallorca - All rights reserved",
+        "rights": " 2025 Grúas Perelló - All rights reserved",
         "privacy": "Privacy Policy",
         "terms": "Terms and Conditions",
         "cookies": "Cookie Policy",
@@ -142,7 +142,7 @@
     },
     "home": {
         "hero": {
-            "title": "Grúas Perello",
+            "title": "Grúas Perelló",
             "subtitle": "Roadside Assistance and Support",
             "cta": "Contact Us",
             "buttons": {
@@ -283,7 +283,7 @@
         "intro": "In compliance with the duty of information contained in Article 10 of Law 34/2002, of July 11, on Services of the Information Society and Electronic Commerce, the following information is provided: The company owning the website (hereinafter, THE COMPANY) provides you with the following information:",
         "companyInfo": {
             "identification": "Identification",
-            "name": "GRÚAS PERELLÓ, S.L.",
+            "name": "AUTOMÓVILES Y GRÚAS PERELLÓ, S.L.",
             "cif": "CIF",
             "address": "Address",
             "addressValue": "Vía Argentina 57, 07200, Felanitx, Balearic Islands",
@@ -308,7 +308,7 @@
         },
         "company": {
             "identification": "Identification",
-            "name": "GRÚAS PERELLÓ, S.L.",
+            "name": "AUTOMÓVILES Y GRÚAS PERELLÓ, S.L.",
             "cif": "CIF",
             "cifValue": "",
             "address": "Address",
@@ -320,7 +320,7 @@
         },
         "dataOrigin": {
             "title": "Origin and categories of processed data",
-            "text": "The personal data processed by GRÚAS PERELLÓ, S.L., comes directly from its clients and users. The categories of data that are processed are:",
+            "text": "The personal data processed by AUTOMÓVILES Y GRÚAS PERELLÓ, S.L., comes directly from its clients and users. The categories of data that are processed are:",
             "list": {
                 "item1": "Identification data: name, surname, ID/NIF/CIF, postal address, email address, postal code, phone.",
                 "item2": "User identification codes or keys.",
@@ -328,7 +328,7 @@
                 "item4": "Commercial information.",
                 "item5": "Economic and banking data."
             },
-            "disclaimer": "Specially protected data is not processed. The requested personal data is mandatory, so that the refusal to provide it may imply the impossibility of carrying out the provision of the services or the acquisition of the contracted goods. In the event that the user provides third-party data, they declare that they have the consent of the same and undertake to transfer the information contained in this clause, exempting GRÚAS PERELLÓ, S.L. from any responsibility in this regard. However, GRÚAS PERELLÓ, S.L. may carry out verifications to confirm this fact, adopting the corresponding due diligence measures, in accordance with data protection regulations."
+            "disclaimer": "Specially protected data is not processed. The requested personal data is mandatory, so that the refusal to provide it may imply the impossibility of carrying out the provision of the services or the acquisition of the contracted goods. In the event that the user provides third-party data, they declare that they have the consent of the same and undertake to transfer the information contained in this clause, exempting AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. from any responsibility in this regard. However, AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. may carry out verifications to confirm this fact, adopting the corresponding due diligence measures, in accordance with data protection regulations."
         },
         "purpose": {
             "title": "Purpose of Processing and nature of the data collected",
@@ -343,7 +343,7 @@
         },
         "duration": {
             "title": "Duration of data processing",
-            "text": "GRÚAS PERELLÓ, S.L. will keep users' personal data only for the time necessary to carry out the purposes for which they were collected, as long as they do not revoke the consents granted. Subsequently, if necessary, it will keep the information blocked for the legally established periods or the period established by law for any action that may arise from the processing.",
+            "text": "AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. will keep users' personal data only for the time necessary to carry out the purposes for which they were collected, as long as they do not revoke the consents granted. Subsequently, if necessary, it will keep the information blocked for the legally established periods or the period established by law for any action that may arise from the processing.",
             "webClients": {
                 "title": "Web Clients",
                 "text": "The information will be kept for the period necessary to manage the delivery and billing of the purchased products; subsequently, the information will be kept for the follow-up of commercial actions during the period of prescription of legal actions and once this period has been exceeded, it will be deleted."
@@ -355,11 +355,11 @@
         },
         "legitimation": {
             "title": "Legitimization in data processing",
-            "text1": "The legitimization for the processing of user data by GRÚAS PERELLÓ, S.L. to carry out the registration and registration of the user on the Platform is found in the consent of the interested party, requested for the specific case.",
+            "text1": "The legitimization for the processing of user data by AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. to carry out the registration and registration of the user on the Platform is found in the consent of the interested party, requested for the specific case.",
             "text2": "For its part, the management of the contracting of products or services, payment, billing and corresponding shipments, is legitimized by the execution of the contract itself.",
-            "text3": "In addition, the processing of data in order to send electronic bulletins with offers, promotions and news related to our services, commercial and/or promotional information, is also based on the legitimate interest of GRÚAS PERELLÓ, S.L. to carry out such processing in accordance with current regulations.",
+            "text3": "In addition, the processing of data in order to send electronic bulletins with offers, promotions and news related to our services, commercial and/or promotional information, is also based on the legitimate interest of AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. to carry out such processing in accordance with current regulations.",
             "text4": "The consents obtained for the mentioned purposes are independent, so the user may revoke one or more of them without affecting the others.",
-            "text5": "Likewise, the user's information may be used for the fulfillment of the different legal obligations of GRÚAS PERELLÓ, S.L."
+            "text5": "Likewise, the user's information may be used for the fulfillment of the different legal obligations of AUTOMÓVILES Y GRÚAS PERELLÓ, S.L."
         },
         "decisions": {
             "title": "Decisions",
@@ -374,7 +374,7 @@
                 "item2": "To the Office of consumers and users in case of any claim.",
                 "item3": "To manufacturers, Technical Services and/or wholesalers in the case of guarantees or repairs. To those transport companies that may be in charge of sending the corresponding orders to customers.",
                 "item4": "In the legally established cases, such as the case of the Security Forces and Bodies.",
-                "item5": "To the public administrations to which GRÚAS PERELLÓ, S.L. must provide information due to the fulfillment of our legal obligations."
+                "item5": "To the public administrations to which AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. must provide information due to the fulfillment of our legal obligations."
             }
         },
         "rights": {
@@ -390,7 +390,7 @@
             },
             "limitations": "In certain circumstances, interested parties may request the limitation of the processing of their data, in which case they will only be kept for the exercise or defense of claims. In certain circumstances and for reasons related to their particular situation, interested parties may oppose the processing of their data. In this case, the entity will stop processing the data, except for legitimate imperative reasons, or the exercise or defense of possible claims.",
             "withdrawConsent": "If consent is granted for a specific purpose, the user has the right to withdraw the consent granted at any time, without affecting the legality of the treatment based on the consent prior to its withdrawal.",
-            "exercise": "The exercise of the aforementioned rights is personal, so it will be necessary for the user to prove their identity. To exercise the aforementioned rights provided for in the legislation, the user can contact GRÚAS PERELLÓ, S.L. through email at: Gruasperello@gmail.com or by writing to Vía Argentina 57, 07200, Felanitx, Baleares.",
+            "exercise": "The exercise of the aforementioned rights is personal, so it will be necessary for the user to prove their identity. To exercise the aforementioned rights provided for in the legislation, the user can contact AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. through email at: Gruasperello@gmail.com or by writing to Vía Argentina 57, 07200, Felanitx, Baleares.",
             "communicationTitle": "The communication will contain the following data and documents:",
             "communicationList": {
                 "item1": "Name and surnames of the interested party, attaching a photocopy of the ID or other valid document that identifies them and, where appropriate, of the person representing them; the use of an electronic signature will exempt from the presentation of these documents.",
@@ -399,15 +399,15 @@
         },
         "security": {
             "title": "Security",
-            "text": "GRÚAS PERELLÓ, S.L. complies with the guidelines of Regulation (EU) 2016/679 of the European Parliament and of the Council, of April 27, 2016 regarding the protection of natural persons with regard to the processing of personal data and the free circulation of these data (GDPR) and Organic Law 3/2018, of December 5, on the Protection of Personal Data and guarantee of digital rights (LOPDGD) and other current regulations at all times, and ensures the correct use and processing of the user's personal data."
+            "text": "AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. complies with the guidelines of Regulation (EU) 2016/679 of the European Parliament and of the Council, of April 27, 2016 regarding the protection of natural persons with regard to the processing of personal data and the free circulation of these data (GDPR) and Organic Law 3/2018, of December 5, on the Protection of Personal Data and guarantee of digital rights (LOPDGD) and other current regulations at all times, and ensures the correct use and processing of the user's personal data."
         },
         "cookies": {
             "title": "Cookies",
-            "text": "GRÚAS PERELLÓ, S.L. informs you that it has cookies installed in its systems. Cookies are small text files that the browser stores inside your computer's hard drive. When accessing the GRÚAS PERELLÓ, S.L. Website, the server will be able to recognize the cookie and provide information about your last visit, improving or facilitating the browsing experience. You can find more information about this in our Cookies Policy."
+            "text": "AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. informs you that it has cookies installed in its systems. Cookies are small text files that the browser stores inside your computer's hard drive. When accessing the AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. Website, the server will be able to recognize the cookie and provide information about your last visit, improving or facilitating the browsing experience. You can find more information about this in our Cookies Policy."
         },
         "modifications": {
             "title": "Modifications",
-            "text": "GRÚAS PERELLÓ, S.L. reserves the right to modify this Privacy Policy in accordance with the applicable legislation at any time. Therefore, it is recommended that the user periodically review this Privacy Policy in order to be informed of the processing and protection of personal data, as well as the rights that assist them."
+            "text": "AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. reserves the right to modify this Privacy Policy in accordance with the applicable legislation at any time. Therefore, it is recommended that the user periodically review this Privacy Policy in order to be informed of the processing and protection of personal data, as well as the rights that assist them."
         },
         "legislation": {
             "title": "Applicable Legislation",

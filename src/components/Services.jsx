@@ -1,6 +1,5 @@
 import React from 'react';
 import './css/Services.css';
-import ReacSection from './ReacSection';
 import ContactSection from './ContactSection';
 import { useTranslation } from 'react-i18next';
 

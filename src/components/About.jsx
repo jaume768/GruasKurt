@@ -1,7 +1,6 @@
 import React from 'react';
 import './css/About.css';
 import Partners from './Partners';
-import ReacSection from './ReacSection';
 import { useTranslation } from 'react-i18next';
 
 export default function About() {
@@ -84,7 +83,6 @@ export default function About() {
         </div>
       </section>
       <Partners />
-      <ReacSection />
     </main>
   );
 }

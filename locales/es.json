@@ -1,7 +1,7 @@
 {
     "about": {
         "title": "Quiénes somos",
-        "description": "Somos Grúas Perello, una compañía especializada en asistencia vial en las Islas Baleares.",
+        "description": "Somos Grúas Perelló, una compañía especializada en asistencia vial en las Islas Baleares.",
         "feature1Title": "Años de experiencia",
         "feature1Description": "Con más de 30 años de trayectoria en el sector de la movilidad y el auxilio en carretera.",
         "feature2Title": "Atención continua",
@@ -30,9 +30,9 @@
         },
         "submit": "Enviar",
         "sending": "Enviando...",
-        "emailAddress": "info@gruasmallorca.es",
+        "emailAddress": "Gruasperello@gmail.com",
         "emailSubtitle": "Escríbenos sin compromiso",
-        "phoneNumber": "971 43 18 40",
+        "phoneNumber": "971 58 12 60",
         "phoneSubtitle": "¡Llámanos para lo que necesites!",
         "addressText": "Carrera Herba Sana, 4, 07110, Baleares",
         "privacyCheck": "He leído y acepto la política de privacidad",
@@ -61,7 +61,7 @@
         "coverage": "Cobertura"
     },
     "footer": {
-        "rights": " 2025 Grúas Mallorca - Todos los derechos reservados",
+        "rights": " 2025 Grúas Perelló - Todos los derechos reservados",
         "privacy": "Política de Privacidad",
         "terms": "Términos y Condiciones",
         "cookies": "Política de Cookies",
@@ -142,7 +142,7 @@
     },
     "home": {
         "hero": {
-            "title": "Grúas Perello",
+            "title": "Grúas Perelló",
             "subtitle": "Asistencia y Auxilio en carretera",
             "cta": "Contáctanos",
             "buttons": {
@@ -283,7 +283,7 @@
         "intro": "En cumplimiento con el deber de información recogido en artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, a continuación se reflejan los siguientes datos: La empresa titular de la web (en adelante, LA EMPRESA) pone a su disposición la siguiente información:",
         "companyInfo": {
             "identification": "Identificación",
-            "name": "GRÚAS PERELLÓ, S.L.",
+            "name": "AUTOMÓVILES Y GRÚAS PERELLÓ, S.L.",
             "cif": "CIF",
             "address": "Dirección",
             "addressValue": "Vía Argentina 57, 07200, Felanitx, Baleares",
@@ -308,7 +308,7 @@
         },
         "company": {
             "identification": "Identificación",
-            "name": "GRÚAS PERELLÓ, S.L.",
+            "name": "AUTOMÓVILES Y GRÚAS PERELLÓ, S.L.",
             "cif": "CIF",
             "cifValue": "",
             "address": "Dirección",
@@ -320,7 +320,7 @@
         },
         "dataOrigin": {
             "title": "Procedencia y categorías de datos tratados",
-            "text": "Los datos personales que trata GRÚAS PERELLÓ, S.L., proceden directamente de sus clientes y usuarios. Las categorías de datos que se tratan son:",
+            "text": "Los datos personales que trata AUTOMÓVILES Y GRÚAS PERELLÓ, S.L., proceden directamente de sus clientes y usuarios. Las categorías de datos que se tratan son:",
             "list": {
                 "item1": "Datos de identificación: nombre, apellidos, DNI/NIF/CIF, dirección postal, dirección de correo electrónico, código postal, teléfono.",
                 "item2": "Códigos o claves de identificación de usuario.",
@@ -328,7 +328,7 @@
                 "item4": "Información comercial.",
                 "item5": "Datos económicos y bancarios."
             },
-            "disclaimer": "No se tratan datos especialmente protegidos. Los datos personales solicitados son obligatorios, de tal forma que la negativa a suministrarlos puede suponer la imposibilidad de llevar a cabo la prestación de los servicios o la adquisición de los bienes contratados. En caso de que el usuario facilite datos de terceros, manifiesta contar con el consentimiento de los mismos y se compromete a trasladarle la información contenida en esta cláusula, eximiendo a GRÚAS PERELLÓ, S.L. de cualquier responsabilidad en este sentido. No obstante, GRÚAS PERELLÓ, S.L. podrá llevar a cabo las verificaciones para constatar este hecho, adoptando las medidas de diligencia debida que correspondan, conforme a la normativa de protección de datos."
+            "disclaimer": "No se tratan datos especialmente protegidos. Los datos personales solicitados son obligatorios, de tal forma que la negativa a suministrarlos puede suponer la imposibilidad de llevar a cabo la prestación de los servicios o la adquisición de los bienes contratados. En caso de que el usuario facilite datos de terceros, manifiesta contar con el consentimiento de los mismos y se compromete a trasladarle la información contenida en esta cláusula, eximiendo a AUTOMÓVILES Y AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. de cualquier responsabilidad en este sentido. No obstante, AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. podrá llevar a cabo las verificaciones para constatar este hecho, adoptando las medidas de diligencia debida que correspondan, conforme a la normativa de protección de datos."
         },
         "purpose": {
             "title": "Finalidad del Tratamiento y naturaleza de los datos recabados",
@@ -343,7 +343,7 @@
         },
         "duration": {
             "title": "Duración del tratamiento de los datos",
-            "text": "GRÚAS PERELLÓ, S.L. conservará los datos personales de los usuarios únicamente durante el tiempo necesario para la realización de las finalidades para las que fueron recogidos, mientras no revoque los consentimientos otorgados. Posteriormente, en caso de ser necesario, mantendrá la información bloqueada los plazos legalmente establecidos o el plazo establecido por ley para cualquier acción que pueda devenir del tratamiento.",
+            "text": "AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. conservará los datos personales de los usuarios únicamente durante el tiempo necesario para la realización de las finalidades para las que fueron recogidos, mientras no revoque los consentimientos otorgados. Posteriormente, en caso de ser necesario, mantendrá la información bloqueada los plazos legalmente establecidos o el plazo establecido por ley para cualquier acción que pueda devenir del tratamiento.",
             "webClients": {
                 "title": "Clientes Web",
                 "text": "La información se conservará durante el plazo necesario para gestionar la entrega y facturación de los productos adquiridos; posteriormente la información se conservará para el seguimiento de las acciones comerciales durante el plazo de prescripción de acciones legales y superado dicho periodo se suprimirá."
@@ -355,11 +355,11 @@
         },
         "legitimation": {
             "title": "Legitimación en el tratamiento de los datos",
-            "text1": "La legitimación para el tratamiento de los datos del usuario por parte de GRÚAS PERELLÓ, S.L. para llevar a cabo el alta y registro del usuario en la Plataforma se encuentra en el consentimiento del interesado, solicitado para el caso concreto.",
+            "text1": "La legitimación para el tratamiento de los datos del usuario por parte de AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. para llevar a cabo el alta y registro del usuario en la Plataforma se encuentra en el consentimiento del interesado, solicitado para el caso concreto.",
             "text2": "Por su parte, la gestión de la contratación de productos o servicios, pago, facturación y envíos correspondientes, está legitimada por la propia ejecución del contrato.",
-            "text3": "Además, el tratamiento de los datos con el fin de remitir boletines electrónicos con ofertas, promociones y noticias relacionadas con nuestros servicios, información comercial y/o promocional, también se basan en el interés legítimo de GRÚAS PERELLÓ, S.L. para llevar a cabo dichos tratamientos de acuerdo con la normativa vigente.",
+            "text3": "Además, el tratamiento de los datos con el fin de remitir boletines electrónicos con ofertas, promociones y noticias relacionadas con nuestros servicios, información comercial y/o promocional, también se basan en el interés legítimo de AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. para llevar a cabo dichos tratamientos de acuerdo con la normativa vigente.",
             "text4": "Los consentimientos obtenidos para las finalidades mencionadas son independientes por lo que el usuario podrá revocar uno o varios de ellos no afectando a los demás.",
-            "text5": "Igualmente se podrá utilizar la información del usuario para el cumplimiento de las diferentes obligaciones legales de GRÚAS PERELLÓ, S.L."
+            "text5": "Igualmente se podrá utilizar la información del usuario para el cumplimiento de las diferentes obligaciones legales de AUTOMÓVILES Y GRÚAS PERELLÓ, S.L."
         },
         "decisions": {
             "title": "Decisiones",
@@ -374,7 +374,7 @@
                 "item2": "A la Oficina de consumidores y usuarios en caso de existir alguna reclamación.",
                 "item3": "A los fabricantes, Servicios técnicos y/o mayoristas en el caso de garantías o reparaciones. A aquellas empresas transportistas que puedan tener encargado el envío a los clientes de los pedidos correspondientes.",
                 "item4": "En los supuestos legalmente establecidos, como es el caso de las Fuerzas y Cuerpos de Seguridad.",
-                "item5": "A las administraciones públicas a las que GRÚAS PERELLÓ, S.L. tenga que facilitar información con motivo del cumplimiento de nuestras obligaciones legales."
+                "item5": "A las administraciones públicas a las que AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. tenga que facilitar información con motivo del cumplimiento de nuestras obligaciones legales."
             }
         },
         "rights": {
@@ -390,7 +390,7 @@
             },
             "limitations": "En determinadas circunstancias, los interesados podrán solicitar la limitación del tratamiento de sus datos, en cuyo caso únicamente se conservarán para el ejercicio o la defensa de reclamaciones. En determinadas circunstancias y por motivos relacionados con su situación particular, los interesados podrán oponerse al tratamiento de sus datos. En este caso, la entidad dejará de tratar los datos, salvo por motivos legítimos imperiosos, o el ejercicio o la defensa de posibles reclamaciones.",
             "withdrawConsent": "Si se otorga un consentimiento para alguna finalidad concreta, el usuario tiene derecho a retirar el consentimiento otorgado en cualquier momento, sin que ello afecte a la licitud del tratamiento basado en el consentimiento previo a su retirada.",
-            "exercise": "El ejercicio de los derechos citados es personalísimo, por lo que será necesario que el usuario acredite su identidad. Para ejercitar los citados derechos previstos en la legislación, el usuario puede dirigirse a GRÚAS PERELLÓ, S.L. a través del correo electrónico a: Gruasperello@gmail.com o mediante escrito dirigido a la dirección Vía Argentina 57, 07200, Felanitx, Baleares.",
+            "exercise": "El ejercicio de los derechos citados es personalísimo, por lo que será necesario que el usuario acredite su identidad. Para ejercitar los citados derechos previstos en la legislación, el usuario puede dirigirse a AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. a través del correo electrónico a: Gruasperello@gmail.com o mediante escrito dirigido a la dirección Vía Argentina 57, 07200, Felanitx, Baleares.",
             "communicationTitle": "La comunicación contendrá los siguientes datos y documentos:",
             "communicationList": {
                 "item1": "Nombre y apellidos del interesado, adjuntando fotocopia del DNI u otro documento válido que lo identifique y, en su caso, de la persona que lo represente; la utilización de firma electrónica eximirá de la presentación de estos documentos.",
@@ -399,15 +399,15 @@
         },
         "security": {
             "title": "Seguridad",
-            "text": "GRÚAS PERELLÓ, S.L. cumple con las directrices del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos (RGPD), así como la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGD) y demás normativa vigente en cada momento, y vela por garantizar el correcto uso y tratamiento de los datos personales del usuario."
+            "text": "AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. cumple con las directrices del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos (RGPD), así como la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGD) y demás normativa vigente en cada momento, y vela por garantizar el correcto uso y tratamiento de los datos personales del usuario."
         },
         "cookies": {
             "title": "Cookies",
-            "text": "GRÚAS PERELLÓ, S.L. le informa de que tiene instaladas cookies en sus sistemas. Las cookies son pequeños archivos de texto que el navegador almacena dentro del disco duro de su ordenador. Al acceder a la Web de GRÚAS PERELLÓ, S.L. el servidor podrá reconocer la cookie y proporcionar información sobre su última visita, mejorando o facilitando la experiencia de navegación. Puede encontrar más información al respecto en nuestra Política de Cookies."
+            "text": "AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. le informa de que tiene instaladas cookies en sus sistemas. Las cookies son pequeños archivos de texto que el navegador almacena dentro del disco duro de su ordenador. Al acceder a la Web de AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. el servidor podrá reconocer la cookie y proporcionar información sobre su última visita, mejorando o facilitando la experiencia de navegación. Puede encontrar más información al respecto en nuestra Política de Cookies."
         },
         "modifications": {
             "title": "Modificaciones",
-            "text": "GRÚAS PERELLÓ, S.L. se reserva el derecho a modificar esta Política de Privacidad de acuerdo con la legislación aplicable en cada momento. Por ello, es recomendable que el usuario revise periódicamente esta Política de Privacidad con la finalidad de estar informado del tratamiento y la protección de los datos personales, así como de los derechos que le asisten."
+            "text": "AUTOMÓVILES Y GRÚAS PERELLÓ, S.L. se reserva el derecho a modificar esta Política de Privacidad de acuerdo con la legislación aplicable en cada momento. Por ello, es recomendable que el usuario revise periódicamente esta Política de Privacidad con la finalidad de estar informado del tratamiento y la protección de los datos personales, así como de los derechos que le asisten."
         },
         "legislation": {
             "title": "Legislación Aplicable",
