@@ -9,7 +9,14 @@ export default function Partners() {
   const partners = [
     { name: 'RACC', logo: '/partners/logo-racc.png' },
     { name: 'Allianz Partners', logo: '/partners/logo-allianz.png' },
-    { name: 'AXA', logo: '/partners/logo-axa.png' }
+    { name: 'AXA', logo: '/partners/logo-axa.png' },
+    { name: 'ADA', logo: '/partners/logo-ada.png' },
+    { name: 'ARAG', logo: '/partners/logo-arag.png' },
+    { name: 'ASITUR', logo: '/partners/logo-asitur.png' },
+    { name: 'EUROP', logo: '/partners/logo-europ.png' },
+    { name: 'LIINEA DIRECTA', logo: '/partners/logo-lineadirecta.png' },
+    { name: 'MUTUA AUTOCLUB', logo: '/partners/logo-mutua-autoclub.png' },
+    { name: 'ADAC', logo: '/partners/logo-adac.png' }
   ];
 
   const carouselRef = useRef(null);
