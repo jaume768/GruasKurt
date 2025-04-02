@@ -20,13 +20,6 @@ export default function Footer() {
               <p><i className="fas fa-envelope"></i>{t('contact.emailAddress')}</p>
             </div>
           </div>
-          <div className="footer-column">
-            <h3>{t('footer.memberTitle')}</h3>
-            <p>{t('footer.memberDescription')}</p>
-            <div className="reac-link">
-              <a href="https://reac.es" target="_blank" rel="noopener noreferrer">reac.es</a>
-            </div>
-          </div>
         </div>
         <div className="footer-bottom">
           <p>{t('footer.developedBy')} <a href="https://corsoft.es" className="developer-link" target="_blank" rel="noopener noreferrer">Corsoft</a> | {t('footer.rights')}</p>

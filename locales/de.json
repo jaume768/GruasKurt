@@ -34,7 +34,7 @@
         "emailSubtitle": "Schreiben Sie uns unverbindlich",
         "phoneNumber": "971 58 12 60",
         "phoneSubtitle": "Rufen Sie uns an, wenn Sie etwas benötigen!",
-        "addressText": "Passeig de la República Argentina, 57, 07200 Felanitx, Illes Balears",
+        "addressText": "Carrer de Sa Carrotja, 43, 07680 Porto Cristo, Illes Balears",
         "privacyCheck": "Ich habe die Datenschutzrichtlinie gelesen und akzeptiere sie",
         "mapTitle": "Unser Standort auf Mallorca",
         "messages": {
@@ -268,14 +268,16 @@
         "mapTitle": "Abdeckungskarte auf Mallorca",
         "description": "Wir zeigen Ihnen alle Standorte, an denen wir tätig sind, um alle Arten von Dienstleistungen im Zusammenhang mit Pannenhilfe und Abschleppdiensten auf der gesamten Insel Mallorca zu verwalten:",
         "locations": {
-            "location1": "Mallorca",
-            "location2": "Manacor",
-            "location3": "Sóller",
-            "location4": "Santa Ponsa",
-            "location5": "El Arenal",
-            "location6": "Cala d'Or",
+            "location1": "Cala Ratjada",
+            "location2": "Arta",
+            "location3": "Can Picafort",
+            "location4": "Sineu",
+            "location5": "Manacor",
+            "location6": "Felanitx",
             "location7": "Campos",
-            "location8": "Cala Rajada"
+            "location8": "Cala d'Or",
+            "location9": "Santanyí",
+            "location10": "Llucmajor"
         }
     },
     "legal": {

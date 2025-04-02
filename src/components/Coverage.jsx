@@ -48,6 +48,10 @@ export default function Coverage() {
                     <span className="location-dot"></span>
                     {t('coverage.locations.location4')}
                   </li>
+                  <li>
+                    <span className="location-dot"></span>
+                    {t('coverage.locations.location9')}
+                  </li>
                 </ul>
                 
                 <ul className="locations-list">
@@ -66,6 +70,10 @@ export default function Coverage() {
                   <li>
                     <span className="location-dot"></span>
                     {t('coverage.locations.location8')}
+                  </li>
+                  <li>
+                    <span className="location-dot"></span>
+                    {t('coverage.locations.location10')}
                   </li>
                 </ul>
               </div>

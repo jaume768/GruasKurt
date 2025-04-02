@@ -35,7 +35,7 @@ footer {
   content: '';
   position: absolute;
   bottom: 0;
-  left: 30%;
+  left: 40%;
   width: 230px;
   height: 3px;
   background-color: #ffed03;
@@ -132,5 +132,9 @@ footer {
 
   .footer-legal {
     justify-content: center;
+  }
+
+  .footer-column h3::after {
+    left: 15%;
   }
 }
