@@ -38,9 +38,9 @@ export default function Statistics() {
   const startCounterAnimation = () => {
     // Set final values
     const finalValues = {
-      services: 40,
-      satisfaction: 99,
-      years: 30
+      services: 25,
+      satisfaction: 98,
+      years: 25
     };
 
     // Duration in milliseconds
